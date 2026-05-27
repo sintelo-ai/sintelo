@@ -81,7 +81,7 @@ const years = ['Year 1','Year 2','Year 3','Year 4','Year 5','Year 6','Year 7','Y
 
 <section class="hero">
   <div class="eyebrow"><span class="dot"></span> Performance Improvement Potential · Big Retailer Inc.</div>
-  <h1>De {bridge.roic_actual.toFixed(1)}% a {bridge.roic_potencial.toFixed(1)}% de ROIC.<br><em>${(bridge.total_valor / 1000).toFixed(1)}B USD de valor capturado en 3 años.</em></h1>
+  <h1>De {bridge.roic_actual.toFixed(1)}% a {bridge.roic_potencial.toFixed(1)}% de ROIC.<br><em>${(bridge.total_valor / 1000).toFixed(1)}B USD de valor capturado en 3 years.</em></h1>
   <p class="sub">Diagnostic based on 8 periods of real financial statements. Three priority levers with quantified impact on NOPAT and invested capital.</p>
   <div class="disclaimer"><span class="disc-dot"></span> Demo company: Big Retailer Inc. Figures in USD millions.</div>
 </section>
@@ -97,7 +97,7 @@ const years = ['Year 1','Year 2','Year 3','Year 4','Year 5','Year 6','Year 7','Y
     <div class="rg-arrow">→</div>
     <div class="rg">
       <div class="rg-val pot">{bridge.roic_potencial.toFixed(1)}%</div>
-      <div class="rg-label">Potential ROIC · 3 años</div>
+      <div class="rg-label">Potential ROIC · 3 years</div>
     </div>
   </div>
 </section>
@@ -123,7 +123,7 @@ const years = ['Year 1','Year 2','Year 3','Year 4','Year 5','Year 6','Year 7','Y
     <div class="dupont-driver">
       <div class="dupont-label">Capital turnover</div>
       <div class="dupont-val">{bridge.capital_turnover.toFixed(2)}x</div>
-      <div class="dupont-formula">Revenue ÷ Capital invertido</div>
+      <div class="dupont-formula">Revenue ÷ Invested capital</div>
       <div class="dupont-palanca dupont-pb">Lever B · Capital</div>
       <div class="dupont-items">Working capital · Capex · Assets</div>
     </div>
@@ -154,7 +154,7 @@ const years = ['Year 1','Year 2','Year 3','Year 4','Year 5','Year 6','Year 7','Y
       <div class="lever">
         <div class="lname">{String(index + 1).padStart(2, '0')} · {lever.nombre}</div>
         <div class="lbar-wrap"><div class="lbar" style={`width:${leverWidths[index]};background:${lever.color}`}></div></div>
-        <div class="lval">+${(lever.impacto / 1000).toFixed(1)}B USD{lever.frecuencia === 'anual' ? '/año' : ''}</div>
+        <div class="lval">+${(lever.impacto / 1000).toFixed(1)}B USD{lever.frecuencia === 'anual' ? '/year' : ''}</div>
         <div class="lroic">+{leverRoiPp[index].toFixed(1)}pp</div>
       </div>
     ))}
@@ -187,7 +187,7 @@ const years = ['Year 1','Year 2','Year 3','Year 4','Year 5','Year 6','Year 7','Y
     <div class="ld-cols">
       <div class="ld-col">
         <div class="ld-col-label">Current state</div>
-        <p>SG&A: $116B (20.8% revenue)<br>EBITDA margin: 6.0%<br>vs 7.4% en Year 1</p>
+        <p>SG&A: $116B (20.8% revenue)<br>EBITDA margin: 6.0%<br>vs 7.4% in Year 1</p>
       </div>
       <div class="ld-col">
         <div class="ld-col-label">Benchmark</div>
@@ -202,8 +202,8 @@ const years = ['Year 1','Year 2','Year 3','Year 4','Year 5','Year 6','Year 7','Y
 
   <div class="lever-detail">
     <div class="ld-header">
-      <div class="ld-tag">Lever 02 — Lever B · Capex / Capital invertido</div>
-      <div class="ld-title">$126B en capex en 4 años. ROIC cayó en ese mismo periodo.</div>
+      <div class="ld-tag">Lever 02 — Lever B · Capex / Invested Capital</div>
+      <div class="ld-title">$126B in capex over 4 years. ROIC fell during the same period.</div>
     </div>
     <div class="ld-cols">
       <div class="ld-col">
@@ -212,7 +212,7 @@ const years = ['Year 1','Year 2','Year 3','Year 4','Year 5','Year 6','Year 7','Y
       </div>
       <div class="ld-col">
         <div class="ld-col-label">Benchmark</div>
-        <p>Retail eficiente: 3-4% revenue<br>ROIC mínimo requerido: 12%<br>Hurdle rate estándar industria</p>
+        <p>Efficient retail: 3-4% revenue<br>Minimum required ROIC: 12%<br>Industry standard hurdle rate</p>
       </div>
       <div class="ld-col">
         <div class="ld-col-label">Initiative</div>
@@ -223,7 +223,7 @@ const years = ['Year 1','Year 2','Year 3','Year 4','Year 5','Year 6','Year 7','Y
 
   <div class="lever-detail">
     <div class="ld-header">
-      <div class="ld-tag">Lever 03 — Lever B · Working capital / Inventario</div>
+      <div class="ld-tag">Lever 03 — Lever B · Working capital / Inventory</div>
       <div class="ld-title">Inventory jumped $20B in Year 7 without proportional revenue growth.</div>
     </div>
     <div class="ld-cols">
@@ -248,7 +248,7 @@ const years = ['Year 1','Year 2','Year 3','Year 4','Year 5','Year 6','Year 7','Y
   <div class="label">Roadmap · 18 months</div>
   <div class="roadmap">
     <div class="rm">
-      <div class="rm-phase">Fase 1 · 0-90 días</div>
+      <div class="rm-phase">Phase 1 · 0-90 days</div>
       <div class="rm-title">Quick wins</div>
       <ul class="rm-items">
         <li>SG&A audit by function</li>
@@ -259,7 +259,7 @@ const years = ['Year 1','Year 2','Year 3','Year 4','Year 5','Year 6','Year 7','Y
       </ul>
     </div>
     <div class="rm">
-      <div class="rm-phase">Fase 2 · 90-365 días</div>
+      <div class="rm-phase">Phase 2 · 90-365 days</div>
       <div class="rm-title">Operational transformation</div>
       <ul class="rm-items">
         <li>Structural overhead reduction</li>
@@ -270,7 +270,7 @@ const years = ['Year 1','Year 2','Year 3','Year 4','Year 5','Year 6','Year 7','Y
       </ul>
     </div>
     <div class="rm">
-      <div class="rm-phase">Fase 3 · 12-18 meses</div>
+      <div class="rm-phase">Phase 3 · 12-18 months</div>
       <div class="rm-title">Consolidation</div>
       <ul class="rm-items">
         <li>Verify sustained ROIC ≥ 13%</li>
