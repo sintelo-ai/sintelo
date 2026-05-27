@@ -82,33 +82,33 @@ const years = ['Year 1','Year 2','Year 3','Year 4','Year 5','Year 6','Year 7','Y
 <section class="hero">
   <div class="eyebrow"><span class="dot"></span> Performance Improvement Potential · Big Retailer Inc.</div>
   <h1>De {bridge.roic_actual.toFixed(1)}% a {bridge.roic_potencial.toFixed(1)}% de ROIC.<br><em>${(bridge.total_valor / 1000).toFixed(1)}B USD de valor capturado en 3 años.</em></h1>
-  <p class="sub">Diagnóstico basado en 8 periodos de estados financieros reales. Tres levers prioritarios con impacto cuantificado sobre NOPAT y capital invertido.</p>
-  <div class="disclaimer"><span class="disc-dot"></span> Empresa de demostración: Big Retailer Inc. Cifras en USD millones.</div>
+  <p class="sub">Diagnostic based on 8 periods of real financial statements. Three priority levers with quantified impact on NOPAT and invested capital.</p>
+  <div class="disclaimer"><span class="disc-dot"></span> Demo company: Big Retailer Inc. Figures in USD millions.</div>
 </section>
 
 <!-- ROIC GAP -->
 <section class="section">
-  <div class="label">ROIC actual vs potencial</div>
+  <div class="label">Current vs potential ROIC</div>
   <div class="roic-gap">
     <div class="rg">
       <div class="rg-val cur">{bridge.roic_actual.toFixed(1)}%</div>
-      <div class="rg-label">ROIC actual · {actualIncome.periodo}</div>
+      <div class="rg-label">Current ROIC · {actualIncome.periodo}</div>
     </div>
     <div class="rg-arrow">→</div>
     <div class="rg">
       <div class="rg-val pot">{bridge.roic_potencial.toFixed(1)}%</div>
-      <div class="rg-label">ROIC potencial · 3 años</div>
+      <div class="rg-label">Potential ROIC · 3 años</div>
     </div>
   </div>
 </section>
 
 <!-- WATERFALL -->
 <section class="section">
-  <div class="label">Descomposición DuPont · cómo se construye el ROIC</div>
-  <p class="section-body" style="margin-bottom:2rem">El ROIC se descompone en dos drivers que multiplicados dan el retorno total. Cada lever del diagnóstico mueve uno de los dos.</p>
+  <div class="label">DuPont Decomposition · how ROIC is built</div>
+  <p class="section-body" style="margin-bottom:2rem">ROIC decomposes into two drivers whose product equals total return. Each diagnostic lever moves one of them.</p>
   <div class="dupont-tree" style="margin-bottom:3rem">
     <div class="dupont-roic">
-      <div class="dupont-label">ROIC actual</div>
+      <div class="dupont-label">Current ROIC</div>
       <div class="dupont-val">{bridge.roic_actual.toFixed(1)}%</div>
     </div>
     <div class="dupont-eq">=</div>
@@ -116,38 +116,38 @@ const years = ['Year 1','Year 2','Year 3','Year 4','Year 5','Year 6','Year 7','Y
       <div class="dupont-label">NOPAT margin</div>
       <div class="dupont-val">{bridge.nopat_margin.toFixed(1)}%</div>
       <div class="dupont-formula">NOPAT ÷ Revenue</div>
-      <div class="dupont-palanca dupont-pa">Palanca A · Margen</div>
-      <div class="dupont-items">SG&A · Pricing · Costos · Mezcla</div>
+      <div class="dupont-palanca dupont-pa">Lever A · Margin</div>
+      <div class="dupont-items">SG&A · Pricing · Costs · Mix</div>
     </div>
     <div class="dupont-times">×</div>
     <div class="dupont-driver">
       <div class="dupont-label">Capital turnover</div>
       <div class="dupont-val">{bridge.capital_turnover.toFixed(2)}x</div>
       <div class="dupont-formula">Revenue ÷ Capital invertido</div>
-      <div class="dupont-palanca dupont-pb">Palanca B · Capital</div>
-      <div class="dupont-items">Working capital · Capex · Activos</div>
+      <div class="dupont-palanca dupont-pb">Lever B · Capital</div>
+      <div class="dupont-items">Working capital · Capex · Assets</div>
     </div>
   </div>
-  <div class="label">Waterfall de valor · ROIC actual → ROIC potencial</div>
+  <div class="label">Value waterfall · Current ROIC → Potential ROIC</div>
   <div style="position:relative;height:320px;margin-bottom:1rem;">
-    <canvas id="wfChart" role="img" aria-label={`Waterfall ROIC de ${bridge.roic_actual.toFixed(1)}% a ${bridge.roic_potencial.toFixed(1)}% via tres levers`}>
-      ROIC actual {bridge.roic_actual.toFixed(1)}%, {bridge.levers[0]?.nombre} +{leverRoiPp[0]?.toFixed(1)}pp, {bridge.levers[1]?.nombre} +{leverRoiPp[1]?.toFixed(1)}pp, {bridge.levers[2]?.nombre} +{leverRoiPp[2]?.toFixed(1)}pp, ROIC potencial {bridge.roic_potencial.toFixed(1)}%
+    <canvas id="wfChart" role="img" aria-label={`Waterfall ROIC de ${bridge.roic_actual.toFixed(1)}% a ${bridge.roic_potencial.toFixed(1)}% via three levers`}>
+      Current ROIC {bridge.roic_actual.toFixed(1)}%, {bridge.levers[0]?.nombre} +{leverRoiPp[0]?.toFixed(1)}pp, {bridge.levers[1]?.nombre} +{leverRoiPp[1]?.toFixed(1)}pp, {bridge.levers[2]?.nombre} +{leverRoiPp[2]?.toFixed(1)}pp, Potential ROIC {bridge.roic_potencial.toFixed(1)}%
     </canvas>
   </div>
   <div class="wf-legend">
-    <span class="leg-item"><span class="leg-dot" style="background:#4A8FD4"></span>Punto de partida</span>
-    <span class="leg-item"><span class="leg-dot" style="background:#4A9A7A"></span>Valor capturado por lever</span>
+    <span class="leg-item"><span class="leg-dot" style="background:#4A8FD4"></span>Starting point</span>
+    <span class="leg-item"><span class="leg-dot" style="background:#4A9A7A"></span>Value captured per lever</span>
   </div>
 </section>
 
 <!-- LEVERS -->
 <section class="section">
-  <div class="label">Levers prioritarios · impacto cuantificado</div>
+  <div class="label">Priority levers · quantified impact</div>
   <div class="levers">
     <div class="lever-header">
       <span>Lever</span>
-      <span>Impacto relativo</span>
-      <span>Valor capturado</span>
+      <span>Relative impact</span>
+      <span>Value captured</span>
       <span>ROIC</span>
     </div>
     {bridge.levers.map((lever, index) => (
@@ -163,81 +163,81 @@ const years = ['Year 1','Year 2','Year 3','Year 4','Year 5','Year 6','Year 7','Y
 
 <!-- HEATMAP -->
 <section class="section">
-  <div class="label">Heatmap de priorización · impacto vs facilidad de captura</div>
-  <p class="section-body" style="margin-bottom:2rem">No todos los levers se ejecutan igual. Esta matriz prioriza por dos dimensiones: cuánto mueve el ROIC y qué tan rápido se captura. Las burbujas en la esquina superior izquierda son las primeras olas de implementación; las de la derecha requieren transformación organizacional más larga.</p>
+  <div class="label">Prioritization heatmap · impact vs ease of capture</div>
+  <p class="section-body" style="margin-bottom:2rem">Not all levers execute the same way. This matrix prioritizes along two dimensions: how much it moves ROIC and how quickly value is captured. Bubbles in the upper left are first-wave implementations; those on the right require longer organizational transformation.</p>
   <div style="position:relative;height:380px;margin-bottom:1rem;">
     <canvas id="hmChart" role="img" aria-label="Heatmap de priorización de levers por impacto en ROIC y tiempo de captura"></canvas>
   </div>
   <div class="hm-legend">
-    <span class="leg-item"><span class="leg-dot" style="background:#7F77DD"></span>Palanca A · Margen</span>
-    <span class="leg-item"><span class="leg-dot" style="background:#85B7EB"></span>Palanca B · Capital</span>
-    <span class="leg-item" style="margin-left:1.5rem;color:var(--dim);font-style:italic">Tamaño de burbuja = facilidad de ejecución</span>
+    <span class="leg-item"><span class="leg-dot" style="background:#7F77DD"></span>Lever A · Margin</span>
+    <span class="leg-item"><span class="leg-dot" style="background:#85B7EB"></span>Lever B · Capital</span>
+    <span class="leg-item" style="margin-left:1.5rem;color:var(--dim);font-style:italic">Bubble size = ease of execution</span>
   </div>
 </section>
 
 <!-- ANÁLISIS POR LEVER -->
 <section class="section">
-  <div class="label">Análisis por lever</div>
+  <div class="label">Lever analysis</div>
 
   <div class="lever-detail">
     <div class="ld-header">
-      <div class="ld-tag">Lever 01 — Palanca A · SG&A / Overhead</div>
-      <div class="ld-title">SG&A creció 25% en 8 años. Revenue creció 15%.</div>
+      <div class="ld-tag">Lever 01 — Lever A · SG&A / Overhead</div>
+      <div class="ld-title">SG&A grew 25% over 8 years. Revenue grew 15%.</div>
     </div>
     <div class="ld-cols">
       <div class="ld-col">
-        <div class="ld-col-label">Situación actual</div>
+        <div class="ld-col-label">Current state</div>
         <p>SG&A: $116B (20.8% revenue)<br>EBITDA margin: 6.0%<br>vs 7.4% en Year 1</p>
       </div>
       <div class="ld-col">
         <div class="ld-col-label">Benchmark</div>
-        <p>Retail eficiente: 18-19% SG&A<br>EBITDA objetivo: 8-9%<br>Gap: ~2pp de margen</p>
+        <p>Efficient retail: 18-19% SG&A<br>Target EBITDA: 8-9%<br>Gap: ~2pp margin</p>
       </div>
       <div class="ld-col">
-        <div class="ld-col-label">Iniciativa</div>
-        <p>Auditoría de overhead por función<br>Target: -2pp SG&A en 18 meses<br>Valor: +${(bridge.levers[0].impacto / 1000).toFixed(1)}B de NOPAT</p>
+        <div class="ld-col-label">Initiative</div>
+        <p>Overhead audit by function<br>Target: -2pp SG&A in 18 months<br>Value: +${(bridge.levers[0].impacto / 1000).toFixed(1)}B NOPAT</p>
       </div>
     </div>
   </div>
 
   <div class="lever-detail">
     <div class="ld-header">
-      <div class="ld-tag">Lever 02 — Palanca B · Capex / Capital invertido</div>
+      <div class="ld-tag">Lever 02 — Lever B · Capex / Capital invertido</div>
       <div class="ld-title">$126B en capex en 4 años. ROIC cayó en ese mismo periodo.</div>
     </div>
     <div class="ld-cols">
       <div class="ld-col">
-        <div class="ld-col-label">Situación actual</div>
-        <p>Capex promedio: $32B/año<br>Sin criterio de ROIC mínimo<br>LTD creció $27B en 4 años</p>
+        <div class="ld-col-label">Current state</div>
+        <p>Avg capex: $32B/year<br>No minimum ROIC criteria<br>LTD grew $27B in 4 years</p>
       </div>
       <div class="ld-col">
         <div class="ld-col-label">Benchmark</div>
         <p>Retail eficiente: 3-4% revenue<br>ROIC mínimo requerido: 12%<br>Hurdle rate estándar industria</p>
       </div>
       <div class="ld-col">
-        <div class="ld-col-label">Iniciativa</div>
-        <p>Definir hurdle rate de 12% ROIC<br>Freeze capex no comprometido<br>Valor: +${(bridge.levers[1].impacto / 1000).toFixed(1)}B liberados/año</p>
+        <div class="ld-col-label">Initiative</div>
+        <p>Set 12% ROIC hurdle rate<br>Freeze uncommitted capex<br>Value: +${(bridge.levers[1].impacto / 1000).toFixed(1)}B freed/year</p>
       </div>
     </div>
   </div>
 
   <div class="lever-detail">
     <div class="ld-header">
-      <div class="ld-tag">Lever 03 — Palanca B · Working capital / Inventario</div>
-      <div class="ld-title">Inventario saltó $20B en Year 7 sin crecimiento de revenue proporcional.</div>
+      <div class="ld-tag">Lever 03 — Lever B · Working capital / Inventario</div>
+      <div class="ld-title">Inventory jumped $20B in Year 7 without proportional revenue growth.</div>
     </div>
     <div class="ld-cols">
       <div class="ld-col">
-        <div class="ld-col-label">Situación actual</div>
-        <p>Inventario Year 7: $65B<br>Histórico Years 1-6: $45-48B<br>Días inventario: ~58 días</p>
+        <div class="ld-col-label">Current state</div>
+        <p>Year 7 inventory: $65B<br>Historical Years 1-6: $45-48B<br>Inventory days: ~58 days</p>
       </div>
       <div class="ld-col">
         <div class="ld-col-label">Benchmark</div>
-        <p>Días inventario objetivo: 35-40<br>Nivel histórico propio: $46B<br>Gap: $17-20B de capital</p>
+        <p>Target inventory days: 35-40<br>Own historical level: $46B<br>Gap: $17-20B in capital</p>
       </div>
       <div class="ld-col">
-        <div class="ld-col-label">Iniciativa</div>
-        <p>Programa de liquidación selectiva<br>Target: $48B en 12 meses<br>Valor: +${(bridge.levers[2].impacto / 1000).toFixed(1)}B de capital liberado</p>
+        <div class="ld-col-label">Initiative</div>
+        <p>Selective liquidation program<br>Target: $48B in 12 months<br>Value: +${(bridge.levers[2].impacto / 1000).toFixed(1)}B capital freed</p>
       </div>
     </div>
   </div>
@@ -245,39 +245,39 @@ const years = ['Year 1','Year 2','Year 3','Year 4','Year 5','Year 6','Year 7','Y
 
 <!-- ROADMAP -->
 <section class="section">
-  <div class="label">Hoja de ruta · 18 meses</div>
+  <div class="label">Roadmap · 18 months</div>
   <div class="roadmap">
     <div class="rm">
       <div class="rm-phase">Fase 1 · 0-90 días</div>
       <div class="rm-title">Quick wins</div>
       <ul class="rm-items">
-        <li>Auditoría de SG&A por función</li>
-        <li>Freeze de capex no comprometido</li>
-        <li>Diagnóstico de inventario Year 7</li>
-        <li>Definir ROIC mínimo requerido (12%)</li>
-        <li>Dashboard mensual de ROIC</li>
+        <li>SG&A audit by function</li>
+        <li>Freeze uncommitted capex</li>
+        <li>Year 7 inventory diagnostic</li>
+        <li>Set minimum required ROIC (12%)</li>
+        <li>Monthly ROIC dashboard</li>
       </ul>
     </div>
     <div class="rm">
       <div class="rm-phase">Fase 2 · 90-365 días</div>
-      <div class="rm-title">Transformación operativa</div>
+      <div class="rm-title">Operational transformation</div>
       <ul class="rm-items">
-        <li>Reducción estructural de overhead</li>
-        <li>Programa de liquidación de inventario</li>
-        <li>Nuevo proceso de aprobación de capex</li>
-        <li>Renegociación de deuda LP</li>
-        <li>Tracking mensual de iniciativas</li>
+        <li>Structural overhead reduction</li>
+        <li>Inventory liquidation program</li>
+        <li>New capex approval process</li>
+        <li>LP debt renegotiation</li>
+        <li>Monthly initiative tracking</li>
       </ul>
     </div>
     <div class="rm">
       <div class="rm-phase">Fase 3 · 12-18 meses</div>
-      <div class="rm-title">Consolidación</div>
+      <div class="rm-title">Consolidation</div>
       <ul class="rm-items">
-        <li>Verificar ROIC ≥ 13% sostenido</li>
-        <li>Capacidades internas instaladas</li>
-        <li>Modelo de capex con hurdle rate</li>
-        <li>Informe final de valor creado</li>
-        <li>Plan de mejora continua</li>
+        <li>Verify sustained ROIC ≥ 13%</li>
+        <li>Internal capabilities installed</li>
+        <li>Capex model with hurdle rate</li>
+        <li>Final value creation report</li>
+        <li>Continuous improvement plan</li>
       </ul>
     </div>
   </div>
@@ -285,30 +285,30 @@ const years = ['Year 1','Year 2','Year 3','Year 4','Year 5','Year 6','Year 7','Y
 
 <!-- BUSINESS CASE -->
 <section class="section">
-  <div class="label">Business case total</div>
+  <div class="label">Total business case</div>
   <div class="bc-grid">
     <div class="bc">
       <div class="bc-val">${(bridge.total_valor / 1000).toFixed(1)}B USD</div>
-      <div class="bc-label">Valor total capturado</div>
-      <div class="bc-sub">En 3 años de implementación</div>
+      <div class="bc-label">Total value captured</div>
+      <div class="bc-sub">Over 3 years of implementation</div>
     </div>
     <div class="bc">
       <div class="bc-val">{bridge.roic_potencial.toFixed(1)}%</div>
-      <div class="bc-label">ROIC potencial</div>
+      <div class="bc-label">Potential ROIC</div>
       <div class="bc-sub">vs {bridge.roic_actual.toFixed(1)}% actual</div>
     </div>
     <div class="bc">
       <div class="bc-val">+{bridge.delta_pp.toFixed(1)}pp</div>
-      <div class="bc-label">Mejora de ROIC</div>
-      <div class="bc-sub">En 3 años</div>
+      <div class="bc-label">ROIC improvement</div>
+      <div class="bc-sub">Over 3 years</div>
     </div>
   </div>
 </section>
 
 <!-- ESTADOS FINANCIEROS -->
 <section class="section">
-  <div class="label">Estados financieros · Big Retailer Inc.</div>
-  <p class="fin-sub">Cifras en USD millones. Base del análisis anterior.</p>
+  <div class="label">Financial statements · Big Retailer Inc.</div>
+  <p class="fin-sub">Figures in USD millions. Basis of the analysis above.</p>
 
   <section class="fs-section">
     <div class="fs-label">Income Statement</div>
@@ -555,10 +555,10 @@ const years = ['Year 1','Year 2','Year 3','Year 4','Year 5','Year 6','Year 7','Y
 <!-- CTA -->
 <section class="cta-section">
   <div class="cta-inner">
-    <div class="cta-tag">Este análisis tomó horas, no semanas. El suyo también.</div>
-    <h2>¿Quiere este diagnóstico aplicado a su empresa?</h2>
-    <a href="/#contacto" class="btn-cta">Solicitar diagnóstico →</a>
-    <div class="cta-note">Precio fijo · sin contrato de implementación por adelantado</div>
+    <div class="cta-tag">This analysis took hours, not weeks. Yours will too.</div>
+    <h2>Want this diagnostic applied to your business?</h2>
+    <a href="/#contacto" class="btn-cta">Request diagnostic →</a>
+    <div class="cta-note">Fixed fee · no upfront implementation contract</div>
   </div>
 </section>
 
@@ -586,7 +586,7 @@ const years = ['Year 1','Year 2','Year 3','Year 4','Year 5','Year 6','Year 7','Y
     new Chart(document.getElementById('wfChart'), {
       type: 'bar',
       data: {
-        labels: ['ROIC actual', ...leverNamesChart, 'ROIC potencial'],
+        labels: ['Current ROIC', ...leverNamesChart, 'Potential ROIC'],
         datasets: [
           { data: starts, backgroundColor: 'transparent', borderColor: 'transparent' },
           { data: bars, backgroundColor: colors, borderColor: 'transparent', borderRadius: 2 }
@@ -603,8 +603,8 @@ const years = ['Year 1','Year 2','Year 3','Year 4','Year 5','Year 6','Year 7','Y
                 if(ctx.datasetIndex === 0) return null;
                 const i = ctx.dataIndex;
                 const lastIndex = bars.length - 1;
-                if(i === 0) return 'ROIC actual: ' + roicActualChart.toFixed(1) + '%';
-                if(i === lastIndex) return 'ROIC potencial: ' + roicPotencialChart.toFixed(1) + '%';
+                if(i === 0) return 'Current ROIC: ' + roicActualChart.toFixed(1) + '%';
+                if(i === lastIndex) return 'Potential ROIC: ' + roicPotencialChart.toFixed(1) + '%';
                 return '+' + ctx.parsed.y.toFixed(1) + 'pp';
               }
             }
