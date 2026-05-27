@@ -143,7 +143,7 @@ export function calcLevers(rows: IncomeRow[], balance: BalanceRow, cashflow?: Ca
 
   return [
     {
-      nombre: 'Reducir SG&A / Overhead',
+      nombre: 'Reduce SG&A / Overhead',
       palanca: 'A - Margen',
       color: '#7F77DD',
       impacto: Math.round(leverSga),
@@ -154,7 +154,7 @@ export function calcLevers(rows: IncomeRow[], balance: BalanceRow, cashflow?: Ca
       facilidad_captura: 6
     },
     {
-      nombre: 'Criterio ROIC en capex',
+      nombre: 'ROIC-based capex criteria',
       palanca: 'B - Capital',
       color: '#85B7EB',
       impacto: Math.round(leverCapex),
@@ -166,7 +166,7 @@ export function calcLevers(rows: IncomeRow[], balance: BalanceRow, cashflow?: Ca
       facilidad_captura: 8
     },
     {
-      nombre: 'Normalizar inventario',
+      nombre: 'Normalize inventory',
       palanca: 'B - Capital',
       color: '#9FE1CB',
       impacto: Math.round(leverInventario),
