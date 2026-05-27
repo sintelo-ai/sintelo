@@ -66,7 +66,7 @@ const rowsForEngine = actualIndex >= 0 ? incomeRows.slice(0, actualIndex + 1) : 
 const leversEngine = calcLevers(rowsForEngine, actualBalance, cf);
 const bridge = buildValueBridge(actualIncome, actualBalance, leversEngine);
 
-// Hallazgos derivados desde data — Big Retailer Inc.
+// Derived findings from data — Big Retailer Inc.
 const firstIncome = incomeRows[0];
 const firstBalance = balanceRows[0];
 const yearsSpan = incomeRows.length - 1;
@@ -80,7 +80,7 @@ const inventarioPromedio = Math.round(inventarioPromedioHistorico / 1000);
 const inventarioActualB = Math.round(inventarioActual / 1000);
 
 function formatDate(date: Date) {
-  return date.toLocaleDateString('es-MX', { day: 'numeric', month: 'long', year: 'numeric' });
+  return date.toLocaleDateString('en-US', { day: 'numeric', month: 'long', year: 'numeric' });
 }
 ---
 
@@ -88,12 +88,12 @@ function formatDate(date: Date) {
 
 <!-- HERO -->
 <section class="hero">
-  <div class="eyebrow">Capital Allocation Advisory · Tampico, México</div>
-  <h1>Encontramos el valor <em>oculto</em><br>en su empresa.</h1>
-  <p class="hero-sub">La mayoría de los dueños de empresas industriales conocen sus ventas y su EBITDA. Pocos saben cuánto capital tienen invertido — y qué retorno genera ese capital.</p>
+  <div class="eyebrow">Capital Allocation Advisory · Austin, TX</div>
+  <h1>We find the hidden <em>value</em><br>in your business.</h1>
+  <p class="hero-sub">Most industrial business owners know their revenue and EBITDA. Few know how much capital they have invested — and what return that capital actually generates.</p>
   <div class="hero-ctas">
-    <a href="#contacto" class="btn-primary">Solicitar diagnóstico</a>
-    <a href="#metodologia" class="btn-secondary">Ver cómo funciona</a>
+    <a href="#contacto" class="btn-primary">Request diagnostic</a>
+    <a href="#metodologia" class="btn-secondary">See how it works</a>
   </div>
 </section>
 
@@ -101,93 +101,93 @@ function formatDate(date: Date) {
 <div class="number-strip">
   <div class="number-item">
     <div class="number-val">+6pp</div>
-    <div class="number-label">mejora de margen EBITDA</div>
+    <div class="number-label">EBITDA margin improvement</div>
   </div>
   <div class="number-item">
     <div class="number-val">40%</div>
-    <div class="number-label">reducción de working capital</div>
+    <div class="number-label">working capital reduction</div>
   </div>
   <div class="number-item">
     <div class="number-val">+10pp</div>
-    <div class="number-label">incremento de ROIC</div>
+    <div class="number-label">ROIC improvement</div>
   </div>
 </div>
 
 <!-- EL PROBLEMA -->
 <section id="problema" class="section">
-  <div class="label">El problema</div>
-  <h2>¿Cuánto vale realmente su empresa<br>— y qué la está frenando?</h2>
-  <p class="section-body">La mayoría de los dueños conocen sus ventas y su EBITDA. Pocos saben cuánto capital tienen invertido, qué retorno genera ese capital — y dónde están perdiendo valor cada día.</p>
+  <div class="label">The Problem</div>
+  <h2>How much is your business really worth<br>— and what's holding it back?</h2>
+  <p class="section-body">Most owners know their revenue and EBITDA. Few know how much capital they have invested, what return that capital generates — and where they're losing value every day.</p>
   <div class="problema-grid">
     <div class="pain">
-      <div class="pain-title">Capital atrapado en operaciones</div>
-      <p class="pain-text">Inventario excesivo, clientes que pagan tarde, activos subutilizados. El dinero está en el negocio pero no trabaja.</p>
+      <div class="pain-title">Capital trapped in operations</div>
+      <p class="pain-text">Excess inventory, slow-paying customers, underutilized assets. The money is in the business but it isn't working.</p>
     </div>
     <div class="pain">
-      <div class="pain-title">Margen que se escapa sin que nadie lo vea</div>
-      <p class="pain-text">Productos que se venden pero no generan utilidad real. Costos de procurement sin negociación. Overhead que creció con los años.</p>
+      <div class="pain-title">Margin leaking without anyone noticing</div>
+      <p class="pain-text">Products that sell but don't generate real profit. Procurement costs left unnegotiated. Overhead that grew unchecked over the years.</p>
     </div>
     <div class="pain">
-      <div class="pain-title">Decisiones de inversión sin criterio de retorno</div>
-      <p class="pain-text">Capex basado en intuición. Sin un ROIC mínimo requerido. Sin saber si el siguiente peso invertido genera valor o lo destruye.</p>
+      <div class="pain-title">Investment decisions without a return framework</div>
+      <p class="pain-text">Capex based on intuition. No minimum required ROIC. No way to know whether the next dollar invested creates value or destroys it.</p>
     </div>
     <div class="pain pain-accent">
-      <div class="pain-title">Estos no son problemas de gestión.</div>
-      <p class="pain-text">Son problemas de información y de claridad económica.</p>
+      <div class="pain-title">These aren't management problems.</div>
+      <p class="pain-text">They're problems of information and economic clarity.</p>
     </div>
   </div>
 </section>
 
 <!-- TESIS ROIC -->
 <section class="section">
-  <div class="label">Nuestra tesis</div>
-  <h2>El ROIC es el número más importante<br>de su empresa.</h2>
-  <p class="section-body">El retorno sobre capital invertido se mueve en dos palancas. Cada decisión operativa mueve una de ellas. Nuestro trabajo es hacerlo visible — y ejecutable.</p>
+  <div class="label">Our thesis</div>
+  <h2>ROIC is the most important number<br>in your business.</h2>
+  <p class="section-body">Return on invested capital moves on two levers. Every operating decision moves one of them. Our job is to make that visible — and actionable.</p>
   <div class="roic-formula">
     <span class="roic-acronym">ROIC</span>
     <span class="roic-eq">=</span>
     <div class="roic-fraction">
-      <div class="roic-num">NOPAT (utilidad operativa neta)</div>
+      <div class="roic-num">NOPAT (net operating profit after tax)</div>
       <div class="roic-line"></div>
-      <div class="roic-den">Capital Invertido (activos operativos)</div>
+      <div class="roic-den">Invested Capital (operating assets)</div>
     </div>
   </div>
   <div class="roic-grid">
     <div class="palanca">
-      <div class="palanca-label">Palanca A</div>
-      <div class="palanca-title">Margen operativo</div>
-      <div class="palanca-items">Pricing · Costos · Mezcla de productos</div>
-      <div class="palanca-arrow">→ Mueve el NOPAT</div>
+      <div class="palanca-label">Lever A</div>
+      <div class="palanca-title">Operating margin</div>
+      <div class="palanca-items">Pricing · Costs · Product mix</div>
+      <div class="palanca-arrow">→ Moves NOPAT</div>
     </div>
     <div class="palanca">
-      <div class="palanca-label">Palanca B</div>
-      <div class="palanca-title">Rotación de capital</div>
-      <div class="palanca-items">Working capital · Activos · Capex</div>
-      <div class="palanca-arrow">→ Mueve el capital invertido</div>
+      <div class="palanca-label">Lever B</div>
+      <div class="palanca-title">Capital turnover</div>
+      <div class="palanca-items">Working capital · Assets · Capex</div>
+      <div class="palanca-arrow">→ Moves invested capital</div>
     </div>
   </div>
 </section>
 
 <!-- METODOLOGÍA -->
 <section id="metodologia" class="section">
-  <div class="label">Lo que hace Sintelo</div>
-  <h2>Una metodología. Tres formas de trabajar juntos.</h2>
+  <div class="label">What Sintelo does</div>
+  <h2>One methodology. Three ways to work together.</h2>
 
   <!-- CADENA SECUENCIAL -->
   <div class="cadena">
 
     <!-- Fase 1 -->
     <div class="cadena-bloque">
-      <div class="cadena-num-tag">Fase 1</div>
+      <div class="cadena-num-tag">Phase 1</div>
       <div class="cadena-card">
-        <div class="cadena-title">Diagnóstico Completo</div>
-        <div class="cadena-time">2–6 semanas · precio fijo</div>
+        <div class="cadena-title">Full Diagnostic</div>
+        <div class="cadena-time">2–6 weeks · fixed fee</div>
         <ul class="fase-list">
-          <li>Cálculo de ROIC actual y descomposición por palanca</li>
-          <li>Escaneo completo de la cadena de valor</li>
-          <li>Benchmarking vs. sector</li>
-          <li>Heatmap de levers cuantificados en pesos</li>
-          <li>ROIC potencial y roadmap de iniciativas</li>
+          <li>Current ROIC calculation and lever-by-lever decomposition</li>
+          <li>Full value chain scan</li>
+          <li>Sector benchmarking</li>
+          <li>Quantified lever heatmap in dollars</li>
+          <li>Potential ROIC and initiative roadmap</li>
         </ul>
       </div>
     </div>
@@ -197,32 +197,32 @@ function formatDate(date: Date) {
 
     <!-- Fase 2 -->
     <div class="cadena-bloque cadena-bloque-wide">
-      <div class="cadena-num-tag">Fase 2</div>
+      <div class="cadena-num-tag">Phase 2</div>
       <div class="cadena-card cadena-card-split">
-        <div class="cadena-title">Implementación</div>
-        <div class="cadena-time">Con el diagnóstico en mano — elija su track</div>
+        <div class="cadena-title">Implementation</div>
+        <div class="cadena-time">With the diagnostic in hand — choose your track</div>
         <div class="tracks">
           <div class="track track-a">
             <div class="track-label">Track A</div>
-            <div class="track-title">Implementación Acelerada</div>
-            <div class="track-price">$25–35K / mes</div>
+            <div class="track-title">Accelerated Implementation</div>
+            <div class="track-price">$25–35K / month</div>
             <ul class="fase-list">
-              <li>Ejecución semanal por olas</li>
-              <li>Frameworks de captura de valor</li>
-              <li>Dashboard mensual de ROIC</li>
-              <li>Capacidades internas instaladas</li>
+              <li>Weekly wave-based execution</li>
+              <li>Value capture frameworks</li>
+              <li>Monthly ROIC dashboard</li>
+              <li>Internal capabilities installed</li>
             </ul>
           </div>
-          <div class="track-divider" aria-hidden="true">o</div>
+          <div class="track-divider" aria-hidden="true">or</div>
           <div class="track track-b">
             <div class="track-label">Track B</div>
-            <div class="track-title">Monitoreo Mensual</div>
-            <div class="track-price">$12–15K / mes</div>
+            <div class="track-title">Monthly Monitoring</div>
+            <div class="track-price">$12–15K / month</div>
             <ul class="fase-list">
-              <li>Dashboard de ROIC actualizado</li>
-              <li>Informe mensual de una página</li>
-              <li>Revisión mensual con dirección</li>
-              <li>Disciplina de capital a largo plazo</li>
+              <li>Updated ROIC dashboard</li>
+              <li>One-page monthly report</li>
+              <li>Monthly review with leadership</li>
+              <li>Long-term capital discipline</li>
             </ul>
           </div>
         </div>
@@ -234,99 +234,99 @@ function formatDate(date: Date) {
   <!-- SEPARADOR -->
   <div class="cadena-separador">
     <div class="cadena-sep-line"></div>
-    <div class="cadena-sep-texto">Producto independiente</div>
+    <div class="cadena-sep-texto">Standalone product</div>
     <div class="cadena-sep-line"></div>
   </div>
 
   <!-- DUE DILIGENCE -->
   <div class="dd-card">
     <div class="dd-encabezado">
-      <div class="dd-titulo">Due Diligence Operacional</div>
-      <div class="dd-tag">Para compradores estratégicos · family offices · private equity</div>
+      <div class="dd-titulo">Operational Due Diligence</div>
+      <div class="dd-tag">For strategic buyers · family offices · private equity</div>
     </div>
-    <p class="dd-desc">Los mismos modelos del diagnóstico aplicados a una empresa que usted quiere adquirir. ROIC histórico real, capital de trabajo verdadero y potencial de mejora post-adquisición — antes de cerrar el trato.</p>
+    <p class="dd-desc">The same diagnostic models applied to a company you want to acquire. Real historical ROIC, true working capital, and post-acquisition improvement potential — before you close the deal.</p>
   </div>
 
 </section>
 
 <!-- RESULTADOS -->
 <section id="resultados" class="section">
-  <div class="label">Resultados típicos</div>
-  <h2>En empresas industriales medianas.</h2>
-  <p class="section-body">Rangos basados en programas de performance improvement en manufactura, alimentos y distribución.</p>
+  <div class="label">Typical results</div>
+  <h2>In mid-market industrial companies.</h2>
+  <p class="section-body">Ranges based on performance improvement programs in manufacturing, food & beverage, and distribution.</p>
   <div class="resultados-nums">
     <div class="resultado-num">
       <div class="resultado-val">+3–6pp</div>
-      <div class="resultado-label">mejora de margen EBITDA</div>
+      <div class="resultado-label">EBITDA margin improvement</div>
     </div>
     <div class="resultado-num">
       <div class="resultado-val">20–40%</div>
-      <div class="resultado-label">reducción de working capital</div>
+      <div class="resultado-label">working capital reduction</div>
     </div>
     <div class="resultado-num">
       <div class="resultado-val">+4–10pp</div>
-      <div class="resultado-label">incremento de ROIC</div>
+      <div class="resultado-label">ROIC improvement</div>
     </div>
   </div>
   <div class="resultados-ejemplos">
-    <div class="ejemplo">Una empresa con $100M en ventas y 8% de EBITDA que mejora 4 puntos genera <strong>$4M anuales adicionales en flujo</strong> — sin tocar las ventas.</div>
-    <div class="ejemplo">Una reducción de 30% en working capital <strong>libera capital que puede reinvertirse o distribuirse hoy.</strong></div>
-    <div class="ejemplo">El programa se paga solo — <strong>generalmente en el primer trimestre de implementación.</strong></div>
+    <div class="ejemplo">A company with $100M in revenue and 8% EBITDA that improves 4 points generates <strong>$4M in additional annual cash flow</strong> — without touching revenue.</div>
+    <div class="ejemplo">A 30% reduction in working capital <strong>frees up capital that can be reinvested or distributed today.</strong></div>
+    <div class="ejemplo">The program pays for itself — <strong>typically in the first quarter of implementation.</strong></div>
   </div>
 </section>
 
 <!-- POR QUÉ AHORA -->
 <section class="section">
-  <div class="label">El momento importa</div>
-  <h2>¿Por qué hacer esto ahora?</h2>
+  <div class="label">Timing matters</div>
+  <h2>Why now?</h2>
   <div class="ahora-grid">
     <div class="ahora-item">
       <div class="ahora-num">01</div>
-      <div class="ahora-title">El costo del capital subió y no bajará pronto</div>
-      <p class="ahora-text">Con tasas altas, tener capital atrapado en inventario o cuentas por cobrar tiene un costo real y creciente. Cada día de retraso en liberarlo tiene precio.</p>
+      <div class="ahora-title">The cost of capital is up and isn't coming down soon</div>
+      <p class="ahora-text">With rates elevated, having capital trapped in inventory or receivables carries a real and growing cost. Every day of delay has a price.</p>
     </div>
     <div class="ahora-item">
       <div class="ahora-num">02</div>
-      <div class="ahora-title">Sus competidores ya están optimizando</div>
-      <p class="ahora-text">Las empresas que mejoran su ROIC primero consolidan ventajas de costo y escala. Las que esperan se encuentran compitiendo con estructuras más eficientes.</p>
+      <div class="ahora-title">Your competitors are already optimizing</div>
+      <p class="ahora-text">Companies that improve their ROIC first lock in cost and scale advantages. Those that wait find themselves competing against more efficient structures.</p>
     </div>
     <div class="ahora-item">
       <div class="ahora-num">03</div>
-      <div class="ahora-title">El diagnóstico es el primer paso, no el compromiso</div>
-      <p class="ahora-text">No tiene que comprometerse a un programa de 24 meses. El diagnóstico es independiente y ya tiene valor por sí mismo como herramienta de decisión.</p>
+      <div class="ahora-title">The diagnostic is a first step, not a commitment</div>
+      <p class="ahora-text">You don't have to commit to a 24-month program. The diagnostic stands on its own as a decision-making tool.</p>
     </div>
   </div>
 </section>
 
 <!-- POR QUÉ SINTELO -->
 <section id="por-que-sintelo" class="section">
-  <div class="label">Por qué Sintelo</div>
-  <h2>Lo que nos diferencia de una<br>consultoría tradicional.</h2>
+  <div class="label">Why Sintelo</div>
+  <h2>What sets us apart from<br>a traditional consultancy.</h2>
   <div class="diferenciadores-grid">
     <div class="diferenciador">
-      <div class="dif-title">Lente de ROIC total — no ROI por proyecto</div>
-      <p class="dif-text">Evaluamos cada iniciativa en términos de su impacto en el ROIC total de la empresa. No vendemos ahorros aislados por área.</p>
+      <div class="dif-title">Total ROIC lens — not project-level ROI</div>
+      <p class="dif-text">We evaluate every initiative in terms of its impact on the company's total ROIC. We don't sell isolated savings by area.</p>
     </div>
     <div class="diferenciador">
-      <div class="dif-title">Claridad antes del compromiso</div>
-      <p class="dif-text">El diagnóstico le da un número: ROIC actual y ROIC potencial. Usted decide si quiere ejecutar. Sin contratos de implementación por adelantado.</p>
+      <div class="dif-title">Clarity before commitment</div>
+      <p class="dif-text">The diagnostic gives you a number: current ROIC and potential ROIC. You decide whether to execute. No upfront implementation contracts.</p>
     </div>
     <div class="diferenciador">
-      <div class="dif-title">Diagnóstico en semanas, no en meses</div>
-      <p class="dif-text">Metodología analítica potenciada por IA. Entregamos el diagnóstico inicial en 2–6 semanas con datos concretos.</p>
+      <div class="dif-title">Diagnostic in weeks, not months</div>
+      <p class="dif-text">AI-powered analytical methodology. We deliver the initial diagnostic in 2–6 weeks with concrete data.</p>
     </div>
     <div class="diferenciador">
-      <div class="dif-title">Socio de largo plazo, no consultor de paso</div>
-      <p class="dif-text">Nuestro modelo está diseñado para acompañar la implementación y monitorear el ROIC mes a mes — no entregar un reporte y desaparecer.</p>
+      <div class="dif-title">Long-term partner, not a drive-by consultant</div>
+      <p class="dif-text">Our model is designed to support implementation and monitor ROIC month by month — not deliver a report and disappear.</p>
     </div>
   </div>
 </section>
 
 <!-- 10 LEVERS -->
 <section class="section">
-  <div class="label">La metodología</div>
-  <h2>Analizamos la cadena de valor completa.</h2>
-  <p class="section-body">El diagnóstico define cuáles de los 10 levers tienen mayor impacto en su empresa específica.</p>
+  <div class="label">The methodology</div>
+  <h2>We analyze the full value chain.</h2>
+  <p class="section-body">The diagnostic identifies which of the 10 levers have the highest impact on your specific business.</p>
   <div class="levers-grid">
     <div class="lever-group">
       <div class="lever-group-title">Revenue improvement</div>
@@ -334,51 +334,51 @@ function formatDate(date: Date) {
       <div class="lever-item">Sales enhancement</div>
     </div>
     <div class="lever-group">
-      <div class="lever-group-title">Reducción de costos</div>
+      <div class="lever-group-title">Cost reduction</div>
       <div class="lever-item">Procurement</div>
-      <div class="lever-item">Producción</div>
-      <div class="lever-item">Distribución</div>
-      <div class="lever-item">Postventa</div>
+      <div class="lever-item">Production</div>
+      <div class="lever-item">Distribution</div>
+      <div class="lever-item">After-sales</div>
       <div class="lever-item">Overhead</div>
       <div class="lever-item">IT</div>
-      <div class="lever-item">Complejidad de producto</div>
-      <div class="lever-item">Costos de producto</div>
+      <div class="lever-item">Product complexity</div>
+      <div class="lever-item">Product costs</div>
     </div>
     <div class="lever-group">
       <div class="lever-group-title">Capital</div>
       <div class="lever-item">Working capital</div>
-      <div class="lever-item">Optimización de capex</div>
+      <div class="lever-item">Capex optimization</div>
     </div>
   </div>
 </section>
 
 <!-- DEMO -->
 <section id="demo" class="section">
-  <div class="label">En acción</div>
-  <h2>Diagnóstico real, en tiempo real.</h2>
-  <p class="section-body">El demo está conectado en tiempo real a una base de datos PostgreSQL. Los números que ve se calculan en el momento — exactamente como lo haríamos con sus datos.</p>
-  <p class="section-body" style="margin-top:1rem"><strong style="color:#C8C3B8">Big Retailer Inc.</strong> — retailer global con estados financieros completos auditados (P&amp;L, Balance, Flujo de Caja). Calculamos el ROIC real histórico, descomponemos por palanca, y construimos el Potential Report con impacto cuantificado en valor.</p>
+  <div class="label">In action</div>
+  <h2>Real diagnostic, in real time.</h2>
+  <p class="section-body">The demo is connected in real time to a PostgreSQL database. The numbers you see are calculated on the spot — exactly as we would do with your data.</p>
+  <p class="section-body" style="margin-top:1rem"><strong style="color:#C8C3B8">Big Retailer Inc.</strong> — global retailer with complete audited financial statements (P&amp;L, Balance Sheet, Cash Flow). We calculate real historical ROIC, decompose by lever, and build the Potential Report with quantified value impact.</p>
   <div class="demo-card">
     <div class="demo-left">
-      <div class="demo-tag">Diagnóstico con estados financieros</div>
+      <div class="demo-tag">Diagnostic with financial statements</div>
       <div class="demo-company">Big Retailer Inc.</div>
-      <p class="demo-desc">Retailer global · $559B en revenue · 8 años de estados financieros completos</p>
+      <p class="demo-desc">Global retailer · $559B in revenue · 8 years of complete financial statements</p>
       <div class="demo-hallazgos">
-        <div class="demo-hallazgo"><div class="demo-hallazgo-num">01</div><div class="demo-hallazgo-text">ROIC cayó de {roicInicial}% a {roicActual}% en {yearsSpan} años — capital creciendo más que retornos</div></div>
-        <div class="demo-hallazgo"><div class="demo-hallazgo-num">02</div><div class="demo-hallazgo-text">SG&amp;A creció {sgaGrowth}% mientras revenue creció {revenueGrowth}% — overhead sin control</div></div>
-        <div class="demo-hallazgo"><div class="demo-hallazgo-num">03</div><div class="demo-hallazgo-text">Inventario creció ${inventarioDelta}B sobre el promedio histórico (${inventarioActualB}B vs ${inventarioPromedio}B)</div></div>
+        <div class="demo-hallazgo"><div class="demo-hallazgo-num">01</div><div class="demo-hallazgo-text">ROIC fell from {roicInicial}% to {roicActual}% over {yearsSpan} years — capital growing faster than returns</div></div>
+        <div class="demo-hallazgo"><div class="demo-hallazgo-num">02</div><div class="demo-hallazgo-text">SG&amp;A grew {sgaGrowth}% while revenue grew {revenueGrowth}% — uncontrolled overhead</div></div>
+        <div class="demo-hallazgo"><div class="demo-hallazgo-num">03</div><div class="demo-hallazgo-text">Inventory grew ${inventarioDelta}B above historical average (${inventarioActualB}B vs ${inventarioPromedio}B)</div></div>
       </div>
     </div>
     <div class="demo-right">
-      <div class="demo-impacto-label">Valor capturable estimado</div>
+      <div class="demo-impacto-label">Estimated capturable value</div>
       <div class="demo-impacto-val">${(bridge.total_valor / 1000).toFixed(1)}B</div>
-      <div class="demo-impacto-sub">en tres iniciativas prioritarias</div>
+      <div class="demo-impacto-sub">across three priority initiatives</div>
       <div class="demo-items">
         <div class="demo-item"><div class="demo-item-desc">{bridge.levers[0].nombre}</div><div class="demo-item-val">~${(bridge.levers[0].impacto / 1000).toFixed(1)}B</div></div>
         <div class="demo-item"><div class="demo-item-desc">{bridge.levers[1].nombre}</div><div class="demo-item-val">~${(bridge.levers[1].impacto / 1000).toFixed(1)}B</div></div>
         <div class="demo-item"><div class="demo-item-desc">{bridge.levers[2].nombre}</div><div class="demo-item-val">~${(bridge.levers[2].impacto / 1000).toFixed(1)}B</div></div>
       </div>
-      <a href="/demo/big-retailer" class="btn-demo">Ver diagnóstico completo →</a>
+      <a href="/demo/big-retailer" class="btn-demo">View full diagnostic →</a>
     </div>
   </div>
 
@@ -387,7 +387,7 @@ function formatDate(date: Date) {
 <!-- BLOG -->
 <section id="blog" class="section">
   <div class="label">Blog</div>
-  <h2>Ideas sobre capital, operaciones<br>y valor en empresas industriales.</h2>
+  <h2>Ideas on capital, operations,<br>and value in industrial companies.</h2>
   <div class="blog-grid">
     {posts.map(post => (
       <a href={`/blog/${post.slug}`} class="post-card">
@@ -396,59 +396,55 @@ function formatDate(date: Date) {
         <p class="post-excerpt">{post.data.descripcion}</p>
         <div class="post-meta">
           <span>{formatDate(post.data.fecha)}</span>
-          <span class="post-read">Leer →</span>
+          <span class="post-read">Read →</span>
         </div>
       </a>
     ))}
   </div>
   <div class="blog-cta">
-    <a href="/blog" class="btn-outline">Ver todos los artículos →</a>
+    <a href="/blog" class="btn-outline">View all articles →</a>
   </div>
 </section>
 
 <!-- JORGE -->
 <section id="jorge" class="section">
-  <div class="label">Quién es Sintelo</div>
+  <div class="label">Who is Sintelo</div>
   <div class="about-grid">
     <div class="about-left">
       <div class="avatar">JC</div>
       <div class="about-name">Jorge Castro</div>
-      <div class="about-role">Fundador · Tampico, México</div>
-      <p class="about-bio">Ingeniería industrial · Analítica · Transformación operativa. Sintelo opera en la intersección de finanzas, operaciones y analítica — con un solo objetivo: hacer que su capital genere más retorno.</p>
+      <div class="about-role">Founder · Austin, TX</div>
+      <p class="about-bio">Industrial engineering · Analytics · Operational transformation. Sintelo operates at the intersection of finance, operations, and analytics — with a single objective: making your capital generate more return.</p>
     </div>
     <div class="about-right">
       <div class="exp-group">
-        <div class="exp-group-label">Formación</div>
+        <div class="exp-group-label">Education</div>
         <div class="exp-item">
           <div class="exp-company">ITESM</div>
-          <div class="exp-role">Ingeniería Industrial</div>
+          <div class="exp-role">Industrial Engineering</div>
         </div>
         <div class="exp-item">
           <div class="exp-company">Carnegie Mellon University</div>
           <div class="exp-role">MSc in Information Systems Management</div>
         </div>
-        <div class="exp-item">
-          <div class="exp-company">ITESM</div>
-          <div class="exp-role">MSc in Management of IT</div>
-        </div>
       </div>
       <div class="exp-group">
-        <div class="exp-group-label">Experiencia</div>
+        <div class="exp-group-label">Experience</div>
         <div class="exp-item">
-          <div class="exp-company">London Consulting Group · 6 años</div>
-          <div class="exp-role">Director de Business Intelligence · Transformación operativa en LATAM, EE.UU. y Canadá · +$25M USD en mejoras documentadas</div>
+          <div class="exp-company">London Consulting Group · 6 years</div>
+          <div class="exp-role">Director of Business Intelligence · Operational transformation across the Americas · $25M+ USD in documented improvements</div>
         </div>
         <div class="exp-item">
           <div class="exp-company">Microsoft Azure</div>
-          <div class="exp-role">Supply Chain y analítica aplicada a operaciones industriales</div>
+          <div class="exp-role">Supply chain and analytics applied to industrial operations</div>
         </div>
         <div class="exp-item">
           <div class="exp-company">Accenture</div>
-          <div class="exp-role">Integración de adquisiciones · Due diligence operativo</div>
+          <div class="exp-role">Acquisition integration · Operational due diligence</div>
         </div>
         <div class="exp-item last">
-          <div class="exp-company">Elanboard · Fundador</div>
-          <div class="exp-role">ERP / SAP B1 para empresas manufactureras en México</div>
+          <div class="exp-company">Elanboard · Founder</div>
+          <div class="exp-role">ERP / SAP B1 for mid-market manufacturing companies</div>
         </div>
       </div>
     </div>
@@ -457,69 +453,69 @@ function formatDate(date: Date) {
 
 <!-- PRÓXIMOS PASOS -->
 <section class="section">
-  <div class="label">Cómo empezar</div>
-  <h2>Empiece con el diagnóstico.</h2>
-  <p class="section-body">Un primer paso concreto, de precio fijo, sin compromiso de implementación. Al final tiene un análisis concreto de su empresa — úselo para decidir qué sigue.</p>
+  <div class="label">How to start</div>
+  <h2>Start with the diagnostic.</h2>
+  <p class="section-body">A concrete first step, fixed fee, no implementation commitment. At the end you have a concrete analysis of your business — use it to decide what's next.</p>
   <div class="pasos-grid">
     <div class="paso">
       <div class="paso-num">1</div>
-      <div class="paso-title">NDA firmado</div>
-      <p class="paso-text">Acordamos confidencialidad antes de compartir cualquier dato.</p>
+      <div class="paso-title">NDA signed</div>
+      <p class="paso-text">We agree on confidentiality before sharing any data.</p>
     </div>
     <div class="paso-sep">→</div>
     <div class="paso">
       <div class="paso-num">2</div>
-      <div class="paso-title">Kick-off + solicitud de datos</div>
-      <p class="paso-text">Enviamos el checklist de información. Reunión de 1 hora.</p>
+      <div class="paso-title">Kick-off + data request</div>
+      <p class="paso-text">We send the information checklist. One 1-hour meeting.</p>
     </div>
     <div class="paso-sep">→</div>
     <div class="paso">
       <div class="paso-num">3</div>
-      <div class="paso-title">Diagnóstico en 2–6 semanas</div>
-      <p class="paso-text">Su ROIC actual, ROIC potencial y las palancas priorizadas.</p>
+      <div class="paso-title">Diagnostic in 2–6 weeks</div>
+      <p class="paso-text">Your current ROIC, potential ROIC, and prioritized levers.</p>
     </div>
   </div>
 </section>
 
 <!-- CTA -->
 <section id="contacto" class="cta-section">
-  <h2>Encontramos el valor oculto<br>en su empresa.</h2>
-  <p class="cta-sub">Precio fijo · entrega en 2–6 semanas · sin contrato de implementación por adelantado.</p>
+  <h2>We find the hidden value<br>in your business.</h2>
+  <p class="cta-sub">Fixed fee · delivered in 2–6 weeks · no upfront implementation contract.</p>
 
   <form class="contact-form" id="contact-form">
     <div class="form-row">
       <div class="form-group">
-        <label for="nombre">Nombre</label>
-        <input type="text" id="nombre" name="nombre" placeholder="Su nombre" required />
+        <label for="nombre">Name</label>
+        <input type="text" id="nombre" name="nombre" placeholder="Your name" required />
       </div>
       <div class="form-group">
-        <label for="empresa">Empresa</label>
-        <input type="text" id="empresa" name="empresa" placeholder="Nombre de la empresa" required />
+        <label for="empresa">Company</label>
+        <input type="text" id="empresa" name="empresa" placeholder="Company name" required />
       </div>
     </div>
     <div class="form-group">
-      <label for="email">Correo electrónico</label>
-      <input type="email" id="email" name="email" placeholder="su@correo.com" required />
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" placeholder="your@email.com" required />
     </div>
     <div class="form-group">
-      <label for="mensaje">¿Qué quiere mejorar en su empresa?</label>
-      <textarea id="mensaje" name="mensaje" rows="4" placeholder="Cuéntenos brevemente sobre su empresa y qué le gustaría mejorar..."></textarea>
+      <label for="mensaje">What would you like to improve in your business?</label>
+      <textarea id="mensaje" name="mensaje" rows="4" placeholder="Tell us briefly about your company and what you'd like to improve..."></textarea>
     </div>
-    <button type="submit" class="btn-submit" id="btn-submit">Solicitar diagnóstico →</button>
+    <button type="submit" class="btn-submit" id="btn-submit">Request diagnostic →</button>
   </form>
 
   <div class="gracias" id="gracias" style="display:none">
-    <div class="gracias-titulo">Gracias — nos pondremos en contacto pronto.</div>
-    <p class="gracias-sub">Revisamos cada solicitud personalmente y le escribiremos en las próximas 24 horas.</p>
+    <div class="gracias-titulo">Thank you — we'll be in touch soon.</div>
+    <p class="gracias-sub">We review every request personally and will reach out within 24 hours.</p>
   </div>
 
-  <div class="contact-alt">O escríbanos directamente a <a href="mailto:jorge@sintelo.com">jorge@sintelo.com</a></div>
+  <div class="contact-alt">Or email us directly at <a href="mailto:jorge@sintelo.com">jorge@sintelo.com</a></div>
 
   <script>
     document.getElementById('contact-form').addEventListener('submit', async function(e) {
       e.preventDefault();
       const btn = document.getElementById('btn-submit');
-      btn.textContent = 'Enviando...';
+      btn.textContent = 'Sending...';
       btn.disabled = true;
       const data = new FormData(this);
       const response = await fetch('https://formspree.io/f/mreokgle', {
@@ -531,7 +527,7 @@ function formatDate(date: Date) {
         document.getElementById('contact-form').style.display = 'none';
         document.getElementById('gracias').style.display = 'block';
       } else {
-        btn.textContent = 'Error — intente de nuevo';
+        btn.textContent = 'Error — try again';
         btn.disabled = false;
       }
     });
