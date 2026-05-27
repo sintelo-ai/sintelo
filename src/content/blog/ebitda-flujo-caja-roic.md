@@ -5,102 +5,102 @@ fecha: 2026-05-05
 categoria: "Capital Allocation"
 ---
 
-EBITDA te dice si vendiste bien.
-Flujo de caja te dice si cobraste.
-ROIC te dice si valió la pena.
+EBITDA tells you if you sold well.
+Cash flow tells you if you collected.
+ROIC tells you if it was worth it.
 
-Las tres miden cosas distintas. Las tres viven juntas en cualquier diagnóstico de capital allocation serio. Y la mayoría de los reportes mensuales que llegan a nuestras manos en empresas medianas mexicanas monitorean solo la primera.
+The three measure different things. All three belong together in any serious capital allocation diagnostic. And most monthly reports we see in mid-market companies monitor only the first.
 
-No es una crítica gratuita. Es la realidad operativa de la mayoría de los consejos en empresas familiares: EBITDA es la métrica que el sistema contable produce con menor fricción, es la que los bancos piden para covenants, y es con la que los dueños comparan año contra año. Es, también, la métrica que con más facilidad oculta deterioro de valor.
+This isn't gratuitous criticism. It's the operating reality of most boards in family-owned companies: EBITDA is the metric the accounting system produces with the least friction, it's what banks require for covenants, and it's what owners use for year-over-year comparisons. It is also the metric that most easily masks value deterioration.
 
-Este artículo describe qué mide cada una de las tres, qué oculta cuando se mira sola, y cómo se leen en conjunto bajo la lente de ROIC X-Ray.
+This article describes what each of the three measures, what it hides when viewed alone, and how they read together under the ROIC X-Ray lens.
 
-## EBITDA: si vendiste bien
+## EBITDA: if you sold well
 
-EBITDA mide la capacidad de tu modelo operativo de generar ganancia antes de los efectos de cómo financias el negocio (intereses), de cuánto pagas al fisco (impuestos), y de cómo amortizas tu inversión histórica (depreciación y amortización).
+EBITDA measures your operating model's ability to generate profit before the effects of how you finance the business (interest), how much you pay the tax authority (taxes), and how you amortize historical investment (depreciation and amortization).
 
-Es una métrica útil porque aísla la operación. Si dos empresas en el mismo sector tienen EBITDA distinto, la diferencia está en pricing, costo de producción, eficiencia operativa o mix de productos — no en cómo estructuraron su deuda.
+It's a useful metric because it isolates the operation. If two companies in the same sector have different EBITDA, the difference is in pricing, production cost, operational efficiency, or product mix — not in how they structured their debt.
 
-**Lo que EBITDA mide bien:**
+**What EBITDA measures well:**
 
-- Si tu pricing aguanta inflación de insumos
-- Si tu mix de productos mejora o se deteriora
-- Si tu estructura de costos escala con volumen
+- Whether your pricing absorbs input inflation
+- Whether your product mix is improving or deteriorating
+- Whether your cost structure scales with volume
 
-**Lo que EBITDA no mide:**
+**What EBITDA does not measure:**
 
-- Si tus clientes pagan a tiempo
-- Si tu inventario está creciendo más rápido que las ventas
-- Si la depreciación contable está enmascarando capex de mantenimiento real
-- Si el capital invertido para generar ese EBITDA se está hinchando
+- Whether your customers pay on time
+- Whether your inventory is growing faster than sales
+- Whether accounting depreciation is masking real maintenance capex
+- Whether the invested capital required to generate that EBITDA is ballooning
 
-Una empresa puede tener EBITDA creciendo +15% año contra año mientras quema caja. La razón: capital de trabajo que crece más rápido que la utilidad, sumado a capex de mantenimiento que se difiere en los libros pero no en la realidad operativa. El consejo ve crecimiento. La caja se vacía.
+A company can have EBITDA growing +15% year over year while burning cash. The reason: working capital growing faster than profit, combined with maintenance capex that's deferred in the books but not in operational reality. The board sees growth. The cash drains.
 
-## Flujo de caja libre: si cobraste
+## Free cash flow: if you collected
 
-Flujo de caja libre contesta la pregunta que EBITDA evita: ¿esa ganancia operativa se está convirtiendo en dinero real?
+Free cash flow answers the question EBITDA avoids: is that operating profit actually converting into real money?
 
-La fórmula básica:
+The basic formula:
 
-**Flujo de caja libre = EBITDA − ΔCapital de trabajo − Capex − Impuestos pagados**
+**Free cash flow = EBITDA − ΔWorking capital − Capex − Taxes paid**
 
-Cada uno de esos términos puede destruir el flujo de caja sin que EBITDA cambie.
+Each of those terms can destroy cash flow without EBITDA changing.
 
-**ΔCapital de trabajo.** Si tus clientes empiezan a pagar a 90 días en lugar de 60, tu cuenta por cobrar crece. Ese crecimiento es flujo de caja que no entró. Si tu inventario sube — porque pronosticaste demanda más alta o porque la rotación se desaceleró — ese inventario es caja inmovilizada en bodega.
+**ΔWorking capital.** If your customers start paying at 90 days instead of 60, your accounts receivable grow. That growth is cash flow that never came in. If your inventory rises — because you forecasted higher demand or because turnover decelerated — that inventory is cash immobilized in the warehouse.
 
-**Capex.** La depreciación contable rara vez coincide con el desembolso real. Una empresa que difiere mantenimiento durante varios años puede mostrar EBITDA creciente, hasta que llega el ciclo de reinversión grande y el capex se dispara. La depreciación en el P&L es una mentira piadosa; el capex en el flujo de caja es la verdad.
+**Capex.** Accounting depreciation rarely matches actual cash outlay. A company that defers maintenance for several years can show growing EBITDA, until the big reinvestment cycle hits and capex spikes. Depreciation in the P&L is a white lie; capex in the cash flow statement is the truth.
 
-**Impuestos pagados.** Las estimaciones contables suavizan el impuesto en el P&L. El SAT cobra en efectivo.
+**Taxes paid.** Accounting estimates smooth the tax line in the P&L. The tax authority collects in cash.
 
-Cuando el flujo de caja libre se queda sistemáticamente por debajo del EBITDA durante varios trimestres, hay un mensaje. Cuál de los tres componentes — working capital, capex, o impuestos — está abriendo la brecha es donde empieza el diagnóstico.
+When free cash flow consistently falls below EBITDA for several quarters, there's a message. Which of the three components — working capital, capex, or taxes — is opening the gap is where the diagnostic begins.
 
-## ROIC: si valió la pena
+## ROIC: if it was worth it
 
-ROIC sintetiza EBITDA y flujo de caja en una sola pregunta: por cada peso de capital invertido en el negocio, ¿cuánto retorno genera?
+ROIC synthesizes EBITDA and cash flow into a single question: for every dollar of capital invested in the business, how much return does it generate?
 
-La fórmula:
+The formula:
 
-**ROIC = NOPAT / Capital invertido**
+**ROIC = NOPAT / Invested capital**
 
-Donde:
+Where:
 
-- **NOPAT** = Utilidad operativa después de impuestos
-- **Capital invertido** = Capital de trabajo + Activo fijo neto
+- **NOPAT** = Net operating profit after tax
+- **Invested capital** = Working capital + Net fixed assets
 
-ROIC mide eficiencia de capital. Una empresa puede tener EBITDA grande y flujo de caja saludable y aún así estar destruyendo valor — si el capital que requirió para generarlos rinde menos que el costo de oportunidad de ese capital.
+ROIC measures capital efficiency. A company can have large EBITDA and healthy cash flow and still be destroying value — if the capital required to generate them yields less than the opportunity cost of that capital.
 
-El comparador relevante es el **costo promedio ponderado de capital (WACC)**. Si tu ROIC supera tu WACC, estás creando valor. Si tu ROIC es menor que tu WACC, estás destruyendo valor — sin importar si EBITDA crece.
+The relevant comparator is the **weighted average cost of capital (WACC)**. If your ROIC exceeds your WACC, you're creating value. If your ROIC is less than your WACC, you're destroying value — regardless of whether EBITDA is growing.
 
-Esta es la métrica que los dueños rara vez ven en sus reportes mensuales y la única que les dice si su empresa, este año, sumó o restó valor económico.
+This is the metric owners rarely see in their monthly reports and the only one that tells them whether their company, this year, added or subtracted economic value.
 
-## Las tres juntas: la lectura del capital allocator
+## All three together: the capital allocator's reading
 
-Ninguna de las tres métricas es suficiente sola. Cada una contesta una pregunta distinta y, leídas juntas, dibujan el cuadro completo:
+None of the three metrics is sufficient alone. Each answers a different question and, read together, they paint the complete picture:
 
-| Métrica | Pregunta que contesta | Limitación cuando se mira sola |
+| Metric | Question it answers | Limitation when viewed alone |
 |---------|----------------------|--------------------------------|
-| EBITDA | ¿Vendí bien? | No mide cobranza, working capital ni eficiencia de capital |
-| Flujo de caja libre | ¿Cobré? | No dice si el capital invertido era el necesario |
-| ROIC | ¿Valió la pena? | Es métrica de síntesis; necesita descomposición para diagnosticar |
+| EBITDA | Did I sell well? | Doesn't measure collections, working capital, or capital efficiency |
+| Free cash flow | Did I collect? | Doesn't say whether the invested capital was the right amount |
+| ROIC | Was it worth it? | It's a synthesis metric; needs decomposition for diagnosis |
 
-En ROIC X-Ray empezamos por descomponer ROIC en sus dos palancas estructurales:
+In ROIC X-Ray we start by decomposing ROIC into its two structural levers:
 
-**Palanca A — Margen operativo.** La rentabilidad por cada peso de venta. Es la dimensión que EBITDA ilumina parcialmente. La descomposición completa cubre pricing, ventas, procurement, producción, distribución, post-venta, gastos generales y complejidad de portafolio.
+**Lever A — Operating margin.** The profitability per dollar of revenue. This is the dimension EBITDA partially illuminates. The complete decomposition covers pricing, sales, procurement, production, distribution, after-sales, overhead, and portfolio complexity.
 
-**Palanca B — Rotación de capital.** La velocidad con la que el capital invertido produce ventas. Es la dimensión que el flujo de caja ilumina parcialmente. La descomposición cubre capital de trabajo (cuentas por cobrar, inventario, cuentas por pagar) y capex (utilización de activos y decisiones de inversión).
+**Lever B — Capital turnover.** The speed at which invested capital produces revenue. This is the dimension cash flow partially illuminates. The decomposition covers working capital (accounts receivable, inventory, accounts payable) and capex (asset utilization and investment decisions).
 
-**ROIC = Margen × Rotación**
+**ROIC = Margin × Turnover**
 
-Esta descomposición — la fórmula de DuPont — es el primer corte de cualquier diagnóstico serio. Te dice si tu problema es de cómo vendes (Palanca A) o de cómo despliegas capital (Palanca B). Las soluciones son distintas en cada caso.
+This decomposition — the DuPont formula — is the first cut in any serious diagnostic. It tells you whether your problem is how you sell (Lever A) or how you deploy capital (Lever B). The solutions are different in each case.
 
-## Implicación para la junta directiva
+## Implications for the board
 
-Si tu reporte mensual del consejo solo enseña EBITDA, está incompleto. Tres ajustes mínimos:
+If your board's monthly report only shows EBITDA, it's incomplete. Three minimum adjustments:
 
-**1. Flujo de caja libre real, no proxy.** EBITDA menos cambio en working capital menos capex pagado menos impuestos pagados. Mensual, comparado contra EBITDA del mismo mes. La brecha sostenida entre los dos es la primera bandera.
+**1. Real free cash flow, not a proxy.** EBITDA minus change in working capital minus capex paid minus taxes paid. Monthly, compared against EBITDA for the same month. A sustained gap between the two is the first flag.
 
-**2. ROIC trailing 12 meses, comparado contra costo de capital estimado.** No tiene que ser preciso al decimal — un rango defendible es suficiente. La pregunta es si estás arriba o abajo del umbral, no si tu ROIC es 14.2% o 14.5%.
+**2. Trailing 12-month ROIC, compared against estimated cost of capital.** It doesn't have to be precise to the decimal — a defensible range is enough. The question is whether you're above or below the threshold, not whether your ROIC is 14.2% or 14.5%.
 
-**3. Descomposición DuPont mes a mes.** Margen operativo y rotación de capital, separados. Una caída en ROIC siempre viene de uno de los dos. Saber cuál es el primer paso para saber qué hacer.
+**3. Month-by-month DuPont decomposition.** Operating margin and capital turnover, separated. A drop in ROIC always comes from one of the two. Knowing which one is the first step to knowing what to do.
 
-Tres métricas. Tres preguntas. Tres lentes que cualquier capital allocator se pone cada mes — porque sin las tres, no hay forma de saber si tu empresa está creando o destruyendo valor.
+Three metrics. Three questions. Three lenses that any capital allocator puts on every month — because without all three, there's no way to know whether your company is creating or destroying value.

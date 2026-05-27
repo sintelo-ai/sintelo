@@ -5,54 +5,54 @@ fecha: 2026-05-19
 categoria: "Capital Allocation"
 ---
 
-Imagina que mañana tu cliente más grande te llama para decirte que no va a renovar. Sin drama, sin conflicto. Simplemente encontró una opción más barata, o decidió producir internamente, o cambió de prioridades. Te agradece los años de relación y cuelga.
+Imagine that tomorrow your biggest customer calls to say they won't be renewing. No drama, no conflict. They simply found a cheaper option, or decided to produce internally, or shifted priorities. They thank you for the years of partnership and hang up.
 
-¿Sabes exactamente cuánto ROIC pierdes ese día?
+Do you know exactly how much ROIC you lose that day?
 
-La mayoría de los dueños de empresa mediana no lo saben. Y esa ignorancia es costosa — no porque no sean buenos operadores, sino porque nunca han traducido la relación comercial con su cliente principal a términos de capital en riesgo.
+Most mid-market business owners don't. And that ignorance is costly — not because they aren't good operators, but because they've never translated the commercial relationship with their main customer into terms of capital at risk.
 
-## La concentración de cliente es un riesgo de capital, no un problema comercial
+## Customer concentration is a capital risk, not a commercial problem
 
-Cuando un cliente representa el 30%, 40% o 50% de tus ventas, esa relación no es solo un activo comercial. Es la palanca que sostiene toda tu estructura de costos fijos.
+When a customer represents 30%, 40%, or 50% of your revenue, that relationship is not just a commercial asset. It's the lever that supports your entire fixed cost structure.
 
-Tu planta fue dimensionada para ese volumen. Tu nómina, también. Tus líneas de crédito con proveedores, también. El capital invertido en inventario, en cuentas por cobrar, en activos fijos — todo está calibrado asumiendo que ese cliente sigue comprando al ritmo actual.
+Your plant was sized for that volume. Your payroll, too. Your credit lines with suppliers, too. The capital invested in inventory, receivables, fixed assets — everything is calibrated assuming that customer keeps buying at the current pace.
 
-Cuando se va, el ingreso cae de golpe. Pero los costos no caen al mismo ritmo. La planta sigue corriendo. La nómina sigue saliendo. Los proveedores siguen esperando pago. El margen operativo colapsa — no porque tu negocio sea ineficiente, sino porque tu estructura de costos no fue diseñada para absorber esa pérdida de volumen.
+When they leave, revenue drops suddenly. But costs don't drop at the same rate. The plant keeps running. Payroll keeps going. Suppliers still expect payment. Operating margin collapses — not because your business is inefficient, but because your cost structure wasn't designed to absorb that volume loss.
 
-El resultado en ROIC es predecible y severo: el margen operativo cae, el capital invertido permanece constante, y el retorno por cada peso invertido se desploma. No en meses. En semanas.
+The ROIC impact is predictable and severe: operating margin falls, invested capital stays constant, and the return on every dollar invested plummets. Not in months. In weeks.
 
-## Cómo cuantificar tu exposición hoy
+## How to quantify your exposure today
 
-Hay dos números que todo dueño debería tener claros antes de que ocurra la crisis.
+There are two numbers every owner should have clear before the crisis hits.
 
-**El primero es el índice de concentración.** ¿Qué porcentaje de tus ventas totales representa tu cliente principal? ¿Y tus tres primeros juntos? Una empresa donde el cliente número uno representa más del 25% del ingreso tiene un riesgo de concentración material. Si supera el 40%, es un riesgo estructural que debería aparecer en cualquier due diligence serio.
+**The first is the concentration index.** What percentage of your total revenue does your main customer represent? And your top three combined? A company where the number one customer represents more than 25% of revenue has a material concentration risk. If it exceeds 40%, it's a structural risk that should appear in any serious due diligence.
 
-**El segundo es el ROIC ajustado por concentración.** Esto es: ¿cuál sería tu ROIC si ese cliente representara el 0% de tus ventas? No es un ejercicio académico. Es la respuesta honesta a la pregunta de qué tan viable es tu negocio sin él. Si el ROIC sin ese cliente queda por debajo de tu costo de capital — o en negativo — tu empresa no tiene valor independiente de esa relación. Depende de ella para existir.
+**The second is the concentration-adjusted ROIC.** This is: what would your ROIC be if that customer represented 0% of your revenue? It's not an academic exercise. It's the honest answer to the question of how viable your business is without them. If the ROIC without that customer falls below your cost of capital — or goes negative — your company has no independent value outside that relationship. It depends on it to exist.
 
-Ese cálculo cambia completamente cómo debes gestionar la relación, qué contratos debes negociar, y qué decisiones de inversión puedes tomar con certeza.
+That calculation completely changes how you should manage the relationship, what contracts you should negotiate, and what investment decisions you can make with certainty.
 
-## Las señales de alerta que anteceden la salida
+## The warning signs that precede the exit
 
-La pérdida de un cliente grande rara vez ocurre de sorpresa. Casi siempre hay señales que el dueño ignora o minimiza porque la relación se siente sólida y el historial es largo.
+Losing a major customer rarely happens by surprise. There are almost always signals that the owner ignores or minimizes because the relationship feels solid and the track record is long.
 
-Los pedidos empiezan a llegar con menos frecuencia o en volúmenes más pequeños. Los plazos de pago se alargan sin justificación explícita. El contacto operativo de siempre es reemplazado por alguien nuevo que no tiene la historia de la relación. Aparecen solicitudes de precio que no eran parte de la dinámica anterior.
+Orders start coming less frequently or in smaller volumes. Payment terms extend without explicit justification. The usual operational contact is replaced by someone new who doesn't have the relationship history. Price requests appear that weren't part of the previous dynamic.
 
-Cada una de estas señales, vista de forma aislada, parece administrable. Vistas en conjunto, son la antesala de una conversación que no quieres recibir por teléfono.
+Each of these signals, viewed in isolation, seems manageable. Viewed together, they're the prelude to a conversation you don't want to receive over the phone.
 
-El problema con la concentración de cliente no es solo el impacto cuando ocurre — es que anula tu capacidad de negociar desde una posición de fuerza. Cuando un cliente sabe que representa el 40% de tus ventas, lo sabe. Y lo usa.
+The problem with customer concentration isn't just the impact when it happens — it's that it eliminates your ability to negotiate from a position of strength. When a customer knows they represent 40% of your revenue, they know it. And they use it.
 
-## Tres respuestas estructurales
+## Three structural responses
 
-Diversificar el portafolio de clientes es la respuesta obvia pero más lenta. En empresas industriales medianas, construir un cliente que llegue al 10% del ingreso puede tomar 18 a 36 meses. No es una palanca de corto plazo.
+Diversifying the customer portfolio is the obvious answer but the slowest one. In mid-market industrial companies, building a customer that reaches 10% of revenue can take 18 to 36 months. It's not a short-term lever.
 
-Lo que sí es de corto plazo es la gestión contractual. ¿Tienes contrato de suministro con tu cliente principal? ¿Con cláusula de volumen mínimo y penalidad? ¿Con plazo de aviso de terminación que te dé tiempo real para reaccionar? Muchas relaciones comerciales de años operan sin contrato formal o con contratos que no tienen dientes. Formalizar esa relación es protección de ROIC, no burocracia.
+What is short-term is contract management. Do you have a supply agreement with your main customer? With a minimum volume clause and penalty? With a termination notice period that gives you real time to react? Many years-long commercial relationships operate without a formal contract or with contracts that have no teeth. Formalizing that relationship is ROIC protection, not bureaucracy.
 
-Y la tercera respuesta es la gestión activa de la relación como activo estratégico — no delegarla al equipo comercial y asumir que está bien porque el cliente sigue comprando. El dueño tiene que estar en contacto directo con el decisor del cliente de forma regular, no solo cuando hay un problema. Esa presencia convierte una relación transaccional en una relación estructural que es mucho más difícil de reemplazar.
+And the third response is active management of the relationship as a strategic asset — not delegating it to the commercial team and assuming it's fine because the customer keeps buying. The owner needs to be in direct contact with the customer's decision-maker regularly, not just when there's a problem. That presence converts a transactional relationship into a structural one that is much harder to replace.
 
-## La pregunta que deberías poder responder hoy
+## The question you should be able to answer today
 
-¿Cuánto tiempo sobrevive tu empresa — con ROIC positivo — si tu cliente principal se va mañana?
+How long does your company survive — with positive ROIC — if your main customer leaves tomorrow?
 
-Si la respuesta es menos de doce meses, tienes un riesgo de capital no gestionado que vale más atención que cualquier iniciativa de crecimiento. Primero proteger lo que ya existe. Después construir sobre esa base.
+If the answer is less than twelve months, you have an unmanaged capital risk that deserves more attention than any growth initiative. First protect what already exists. Then build on that foundation.
 
-Las relaciones con stakeholders clave no son un tema de habilidades blandas. Son la variable que determina si el capital que invertiste en construir tu empresa tiene valor real o es una apuesta concentrada en una sola cuenta.
+Relationships with key stakeholders are not a soft skills issue. They are the variable that determines whether the capital you invested in building your company has real value or is a concentrated bet on a single account.

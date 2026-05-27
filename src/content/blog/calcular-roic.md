@@ -1,80 +1,80 @@
 ---
-titulo: "How to calculate your company ROIC in an afternoon"
+titulo: "How to calculate your company's ROIC in an afternoon"
 fecha: 2026-02-28
 categoria: ROIC
 descripcion: You do not need a sophisticated financial model. You need the right data and to know what to include in invested capital — and what to leave out.
 ---
 
-El ROIC — retorno sobre capital invertido — es el número más honesto que puede calcular sobre su empresa. Más honesto que el EBITDA, más completo que el margen neto, más útil que el ROE.
+ROIC — return on invested capital — is the most honest number you can calculate about your business. More honest than EBITDA, more complete than net margin, more useful than ROE.
 
-Y sin embargo, la mayoría de los dueños de empresas industriales en México nunca lo han calculado. No porque sea difícil. Sino porque nadie les enseñó cómo.
+And yet, most industrial business owners have never calculated it. Not because it's hard. But because no one taught them how.
 
-Aquí va el proceso completo.
+Here's the complete process.
 
-## Qué necesita
+## What you need
 
-- Estado de resultados del último año (o los últimos 12 meses)
-- Balance general al cierre del mismo período
-- Una hora de su tiempo
+- Income statement for the last year (or trailing 12 months)
+- Balance sheet as of the same period-end
+- One hour of your time
 
-## Paso 1 — Calcule el NOPAT
+## Step 1 — Calculate NOPAT
 
-El NOPAT es la utilidad operativa después de impuestos. Es lo que genera su negocio antes de considerar cómo está financiado.
+NOPAT is net operating profit after tax. It's what your business generates before considering how it's financed.
 
 ```
-NOPAT = EBIT × (1 − tasa de impuestos)
+NOPAT = EBIT × (1 − tax rate)
 ```
 
-Si su EBIT fue $20M y su tasa efectiva de impuestos es 30%:
+If your EBIT was $20M and your effective tax rate is 30%:
 
 ```
 NOPAT = $20M × 0.70 = $14M
 ```
 
-## Paso 2 — Calcule el capital invertido
+## Step 2 — Calculate invested capital
 
-Aquí es donde la mayoría se equivoca. El capital invertido no es el activo total. Es el capital que realmente trabaja en la operación.
+This is where most people get it wrong. Invested capital is not total assets. It's the capital that actually works in the operation.
 
-**Incluya:**
-- Cuentas por cobrar
-- Inventario
-- Activos fijos netos (maquinaria, equipo, instalaciones)
-- Otros activos operativos
+**Include:**
+- Accounts receivable
+- Inventory
+- Net fixed assets (machinery, equipment, facilities)
+- Other operating assets
 
-**Excluya:**
-- Efectivo e inversiones temporales
-- Activos no operativos (terrenos no usados, inversiones en otras empresas)
-- Cuentas por pagar a proveedores (esto reduce el capital que usted tiene que poner)
+**Exclude:**
+- Cash and temporary investments
+- Non-operating assets (unused land, investments in other companies)
+- Accounts payable to suppliers (this reduces the capital you need to put in)
 
-La fórmula:
-
-```
-Capital invertido = Activos operativos − Pasivos operativos sin costo
-```
-
-## Paso 3 — Divida
+The formula:
 
 ```
-ROIC = NOPAT / Capital invertido
+Invested capital = Operating assets − Non-interest-bearing operating liabilities
 ```
 
-Si su NOPAT fue $14M y su capital invertido es $100M, su ROIC es **14%**.
+## Step 3 — Divide
 
-## ¿Es bueno o malo?
+```
+ROIC = NOPAT / Invested capital
+```
 
-Depende de su costo de capital. Una regla simple: si su ROIC es mayor al 12–15%, su empresa está creando valor. Si es menor, está destruyendo valor — aunque el EBITDA se vea bien.
+If your NOPAT was $14M and your invested capital is $100M, your ROIC is **14%**.
 
-Para empresas industriales medianas en México, un ROIC por encima del 18–20% es excelente. Entre 10–15% es aceptable. Por debajo del 10%, hay trabajo por hacer.
+## Is that good or bad?
 
-## Lo que el número le dice
+It depends on your cost of capital. A simple rule: if your ROIC is above 12–15%, your company is creating value. If it's lower, it's destroying value — even if EBITDA looks good.
 
-Un ROIC bajo puede venir de dos lugares:
+For mid-market industrial companies, a ROIC above 18–20% is excellent. Between 10–15% is acceptable. Below 10%, there's work to do.
 
-1. **Margen operativo bajo** — sus precios, costos o mezcla de productos no son los adecuados
-2. **Rotación de capital baja** — tiene demasiado capital inmovilizado en inventario, cuentas por cobrar o activos subutilizados
+## What the number tells you
 
-Identificar cuál de los dos es el problema determina exactamente qué palanca mover.
+A low ROIC can come from two places:
+
+1. **Low operating margin** — your pricing, costs, or product mix aren't right
+2. **Low capital turnover** — you have too much capital tied up in inventory, receivables, or underutilized assets
+
+Identifying which one is the problem determines exactly which lever to pull.
 
 ---
 
-*En Sintelo calculamos su ROIC actual, lo descomponemos en sus partes y le decimos exactamente dónde está la mayor oportunidad de mejora.*
+*At Sintelo we calculate your current ROIC, decompose it into its parts, and tell you exactly where the biggest improvement opportunity lies.*

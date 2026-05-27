@@ -5,73 +5,73 @@ categoria: Risk Management
 descripcion: The most dangerous risks for an industrial company are not in the P&L. They are in the balance sheet — and in the decisions no one is measuring.
 ---
 
-Tu estado de resultados puede verse bien. Márgenes razonables, EBITDA positivo, crecimiento en ventas.
+Your income statement can look good. Reasonable margins, positive EBITDA, growing revenue.
 
-Y aun así, tu empresa puede estar acumulando riesgos que eventualmente destruyen valor — sin que aparezcan en ningún reporte mensual.
+And yet, your company may be accumulating risks that eventually destroy value — without showing up in any monthly report.
 
-Estos son los tres más comunes en empresas industriales medianas en México.
+These are the three most common in mid-market industrial companies.
 
-## Riesgo 1 — Concentración de clientes
+## Risk 1 — Customer concentration
 
-Si un solo cliente representa más del 25–30% de tu revenue, tienes un riesgo estructural que no aparece en tu P&L.
+If a single customer represents more than 25–30% of your revenue, you have a structural risk that doesn't appear in your P&L.
 
-Mientras ese cliente sigue comprando, todo se ve bien. El problema es lo que pasa cuando no compra.
+While that customer keeps buying, everything looks fine. The problem is what happens when they don't.
 
-Lo que vemos en la práctica: empresas que operaban con ROIC de 18–20% y en dos años caen a terreno negativo — no porque el producto fallara, sino porque un cliente importante redujo o canceló sus pedidos. La estructura de costos fijos estaba diseñada para un nivel de volumen que ya no existe.
+What we see in practice: companies operating at 18–20% ROIC that fall to negative territory within two years — not because the product failed, but because a major customer reduced or canceled orders. The fixed cost structure was designed for a volume level that no longer exists.
 
-**Cómo medirlo:**
-- ¿Cuánto representa tu cliente más grande como % del revenue?
-- ¿Cuánto representa el top 3 de clientes?
-- ¿Cuánto tiempo tardarías en reemplazar ese volumen?
+**How to measure it:**
+- How much does your largest customer represent as % of revenue?
+- How much does your top 3 represent?
+- How long would it take you to replace that volume?
 
-El benchmark razonable para empresas industriales medianas: ningún cliente debe representar más del 20% del revenue. Si superas ese umbral, el riesgo debe estar explícitamente en tu radar.
+A reasonable benchmark for mid-market industrial companies: no single customer should represent more than 20% of revenue. If you exceed that threshold, the risk should be explicitly on your radar.
 
-## Riesgo 2 — Inventario obsoleto o de lento movimiento
+## Risk 2 — Obsolete or slow-moving inventory
 
-El inventario que no rota no es un activo. Es capital inmovilizado que tiene un costo real — y que eventualmente tendrá que castigarse.
+Inventory that doesn't turn is not an asset. It's immobilized capital with a real cost — and that will eventually need to be written down.
 
-El problema es que en el balance aparece a valor contable. No hay señal de alerta visible hasta que alguien hace el análisis de rotación por SKU o categoría.
+The problem is that it appears on the balance sheet at book value. There's no visible warning signal until someone does the turnover analysis by SKU or category.
 
-Lo que vemos en la práctica: empresas con 150–200 días de inventario en categorías específicas, donde la mitad del stock tiene más de 12 meses sin movimiento. Ese capital podría estar trabajando en otra parte del negocio — o simplemente no haberse comprado.
+What we see in practice: companies with 150–200 days of inventory in specific categories, where half the stock hasn't moved in over 12 months. That capital could be working in another part of the business — or simply never should have been purchased.
 
-**Cómo medirlo:**
-- Días de inventario por categoría o línea de producto
-- % del inventario con más de 90 días sin movimiento
-- % del inventario con más de 180 días sin movimiento
+**How to measure it:**
+- Days of inventory by category or product line
+- % of inventory with more than 90 days without movement
+- % of inventory with more than 180 days without movement
 
-Si más del 20% de tu inventario tiene más de 180 días sin venta, tienes un problema de capital inmovilizado que vale la pena atacar ahora.
+If more than 20% of your inventory hasn't sold in over 180 days, you have an immobilized capital problem worth addressing now.
 
-## Riesgo 3 — Capex sin criterio de retorno
+## Risk 3 — Capex without a return framework
 
-Cada inversión de capital que hace tu empresa debería pasar por una pregunta simple: ¿qué retorno va a generar este peso invertido?
+Every capital investment your company makes should pass through a simple question: what return will this invested dollar generate?
 
-La mayoría de las empresas industriales no tienen un ROIC mínimo requerido para inversiones. Las decisiones de capex se toman con base en intuición, urgencia operativa, o comparaciones de precio — no en proyecciones de retorno.
+Most industrial companies don't have a minimum required ROIC for investments. Capex decisions are made based on intuition, operational urgency, or price comparisons — not on return projections.
 
-El resultado: activos que se acumulan en el balance, inflan el capital invertido, y comprimen el ROIC — sin que nadie lo conecte con la decisión de inversión original.
+The result: assets that accumulate on the balance sheet, inflate invested capital, and compress ROIC — without anyone connecting it to the original investment decision.
 
-**Cómo medirlo:**
-- ¿Cuál es tu ROIC mínimo requerido para aprobar una inversión?
-- ¿Cuántas de tus últimas 5 inversiones de capex tienen un análisis de retorno documentado?
-- ¿Cuál es la rotación de tus activos fijos? ¿Ha bajado en los últimos 3 años?
+**How to measure it:**
+- What is your minimum required ROIC to approve an investment?
+- How many of your last 5 capex investments have a documented return analysis?
+- What is your fixed asset turnover? Has it declined over the last 3 years?
 
-Si la rotación de activos ha bajado consistentemente, es una señal de que el capex está creciendo más rápido que el retorno que genera.
+If asset turnover has declined consistently, it's a signal that capex is growing faster than the return it generates.
 
-## Por qué estos riesgos son tan difíciles de ver
+## Why these risks are so hard to see
 
-Los tres tienen algo en común: no generan una pérdida visible en el corto plazo.
+All three have something in common: they don't generate a visible loss in the short term.
 
-La concentración de clientes es un riesgo latente — hasta que se activa. El inventario obsoleto sigue en el balance a valor contable — hasta que se castiga. El capex sin criterio comprime el ROIC lentamente — sin que nadie conecte la causa con el efecto.
+Customer concentration is a latent risk — until it activates. Obsolete inventory stays on the balance sheet at book value — until it's written down. Capex without criteria compresses ROIC slowly — without anyone connecting cause to effect.
 
-El ROIC los captura a todos. Un ROIC que cae consistentemente es la señal de que uno o varios de estos riesgos están activos — aunque el P&L todavía se vea bien.
+ROIC captures all of them. A ROIC that falls consistently is the signal that one or more of these risks are active — even if the P&L still looks fine.
 
-## Cómo gestionarlos
+## How to manage them
 
-El primer paso es hacerlos visibles. Eso requiere un diagnóstico que vaya más allá del estado de resultados y analice el balance con el mismo rigor.
+The first step is making them visible. That requires a diagnostic that goes beyond the income statement and analyzes the balance sheet with the same rigor.
 
-El segundo paso es priorizarlos. No todos los riesgos tienen el mismo impacto en el ROIC — y los recursos para gestionarlos son limitados.
+The second step is prioritizing them. Not all risks have the same ROIC impact — and the resources to manage them are limited.
 
-El tercer paso es monitorearlos. Un dashboard mensual de ROIC que incluya rotación de capital, concentración de clientes y días de inventario convierte estos riesgos en métricas visibles — y accionables.
+The third step is monitoring them. A monthly ROIC dashboard that includes capital turnover, customer concentration, and inventory days turns these risks into visible — and actionable — metrics.
 
 ---
 
-*¿Quiere identificar cuáles de estos riesgos están activos en su empresa? El diagnóstico de Sintelo los cuantifica en pesos — antes de que se conviertan en un problema mayor.*
+*Want to identify which of these risks are active in your company? The Sintelo diagnostic quantifies them in dollars — before they become a bigger problem.*

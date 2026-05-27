@@ -5,87 +5,83 @@ categoria: Operational Excellence
 descripcion: Most industrial companies optimize activity and ignore return. The difference between working harder and working smarter is measured in ROIC.
 ---
 
-Eficiencia no es trabajar más.
+Efficiency is not working more.
 
-Es que cada peso invertido en la operación rinda más.
+It's making every dollar invested in the operation yield more.
 
-Esa distinción parece simple. Pero la mayoría de las empresas industriales en México optimizan lo primero e ignoran lo segundo — y la diferencia en resultados es enorme.
+That distinction seems simple. But most industrial companies optimize the first and ignore the second — and the difference in results is enormous.
 
-## Dos empresas, dos enfoques
+## Two companies, two approaches
 
-**La empresa que trabaja más duro:**
-- Agrega turnos para producir más
-- Presiona al equipo de ventas para cerrar más pedidos
-- Reduce costos por área sin criterio claro
+**The company that works harder:**
+- Adds shifts to produce more
+- Pressures the sales team to close more orders
+- Cuts costs by department without clear criteria
 
-Resultado: más actividad, mismo ROIC. A veces peor.
+Result: more activity, same ROIC. Sometimes worse.
 
-**La empresa que trabaja más inteligente:**
-- Identifica qué productos realmente generan margen después de considerar el capital que consumen
-- Libera capital atrapado en inventario, cuentas por cobrar y activos subutilizados
-- Elimina lo que no genera retorno — aunque "se vea bien" en el estado de resultados
+**The company that works smarter:**
+- Identifies which products actually generate margin after considering the capital they consume
+- Frees capital trapped in inventory, receivables, and underutilized assets
+- Eliminates what doesn't generate return — even if it "looks good" on the income statement
 
-Resultado: menos actividad, mejor ROIC. Y más efectivo.
+Result: less activity, better ROIC. And more cash.
 
-## Por qué la mayoría elige el primer camino
+## Why most choose the first path
 
-No es por falta de voluntad. Es por falta de información.
+It's not a lack of will. It's a lack of information.
 
-La segunda ruta requiere responder preguntas que la mayoría de las empresas no puede contestar con sus sistemas actuales:
+The second path requires answering questions that most companies can't answer with their current systems:
 
-**¿Cuáles productos realmente generan utilidad después de considerar el capital que consumen?**
+**Which products actually generate profit after considering the capital they consume?**
 
-Un producto puede tener buen margen bruto pero requerir 180 días de inventario para venderse. Ese capital inmovilizado tiene un costo real que no aparece en el P&L.
+A product may have good gross margin but require 180 days of inventory to sell. That immobilized capital has a real cost that doesn't appear on the P&L.
 
-**¿Cuánto capital tiene inmovilizado en inventario, cuentas por cobrar y activos subutilizados?**
+**How much capital do you have tied up in inventory, receivables, and underutilized assets?**
 
-La mayoría sabe su EBITDA. Pocos saben cuánto capital está atrapado en su operación sin generar retorno.
+Most know their EBITDA. Few know how much capital is trapped in their operation without generating return.
 
-**¿Qué palanca mover primero para el mayor impacto?**
+**Which lever to pull first for the greatest impact?**
 
-No todas las iniciativas valen igual. Algunas mueven el margen operativo. Otras liberan capital. El orden importa.
+Not all initiatives are equal. Some move operating margin. Others free up capital. The order matters.
 
-## Un ejemplo concreto
+## A concrete example
 
-Una manufacturera tenía 224 días de inventario en una categoría que además se vendía al 58% del precio lista.
+A manufacturer had 224 days of inventory in a category that was also selling at 58% of list price.
 
-En papel, la categoría generaba revenue. En realidad, destruía valor en ambas palancas del ROIC:
+On paper, the category generated revenue. In reality, it destroyed value on both ROIC levers:
 
-- **Palanca A:** margen comprimido por descuentos del 42%
-- **Palanca B:** capital inmovilizado equivalente a 7 meses de ventas de esa categoría
+- **Lever A:** margin compressed by 42% discounts
+- **Lever B:** immobilized capital equivalent to 7 months of sales in that category
 
-El problema no era que el equipo de ventas no trabajara suficiente. Era que el capital estaba mal asignado.
+The problem wasn't that the sales team wasn't working hard enough. It was that capital was misallocated.
 
-La solución no fue agregar presión. Fue redirigir el capital hacia categorías con mayor rotación y mejores márgenes — y liquidar el inventario parado.
+The solution wasn't adding pressure. It was redirecting capital toward categories with higher turnover and better margins — and liquidating the stagnant inventory.
 
-## Cómo medirlo
+## How to measure it
 
-El ROIC descompuesto en sus partes te dice exactamente dónde está el problema:
+ROIC decomposed into its parts tells you exactly where the problem is:
 
 ```
-ROIC = NOPAT / Capital Invertido
-     = Margen operativo × Rotación de capital
+ROIC = NOPAT / Invested Capital
+     = Operating margin × Capital turnover
 ```
 
-Un ROIC bajo puede venir de dos lugares:
+A low ROIC can come from two places:
 
-1. **Margen operativo bajo** — precios, costos, mezcla de productos
-2. **Rotación de capital baja** — inventario excesivo, clientes que pagan tarde, activos subutilizados
+1. **Low operating margin** — pricing, costs, product mix
+2. **Low capital turnover** — excess inventory, slow-paying customers, underutilized assets
 
-Identificar cuál es el problema determina exactamente qué palanca mover. Sin ese diagnóstico, cualquier iniciativa de "eficiencia" es un disparo en la oscuridad.
+Identifying which is the problem determines exactly which lever to pull. Without that diagnostic, any "efficiency" initiative is a shot in the dark.
 
-## Lo que Sintelo hace diferente
+## What Sintelo does differently
 
-El diagnóstico de Sintelo descompone el ROIC de su empresa en sus partes y cuantifica el impacto de cada lever en pesos — no en porcentajes abstractos.
+The Sintelo diagnostic decomposes your company's ROIC into its parts and quantifies the impact of each lever in dollars — not in abstract percentages.
 
-Al final del diagnóstico tiene tres cosas:
+At the end of the diagnostic you have three things:
 
-1. **ROIC actual** — el número honesto de su empresa hoy
-2. **ROIC potencial** — si se ejecutan las 3–5 palancas prioritarias
-3. **Recomendación clara** — qué atacar primero y por qué
+1. **Current ROIC** — the honest number for your company today
+2. **Potential ROIC** — if the top 3–5 priority levers are executed
+3. **Clear recommendation** — what to attack first and why
 
-Excelencia operativa no es trabajar más. Es hacer que cada peso invertido genere más retorno.
-
----
-
-*¿Quiere ver cómo aplicamos esto en un caso real? Vea el diagnóstico operativo de AdventureWorks Inc. — una manufacturera con 224 días de inventario en una categoría crítica.*
+Operational excellence is not working more. It's making every dollar invested generate more return.

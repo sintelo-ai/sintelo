@@ -5,54 +5,54 @@ categoria: Due Diligence
 descripcion: Most buyers review adjusted EBITDA. Few review actual working capital. That is where the real problems hide.
 ---
 
-He visto este patrón repetirse en varias transacciones: un comprador — fondo de PE, family office o comprador estratégico — hace un due diligence financiero riguroso. Revisa los estados financieros, valida los ingresos, ajusta el EBITDA.
+I've seen this pattern repeat across multiple transactions: a buyer — PE fund, family office, or strategic acquirer — runs a rigorous financial due diligence. Reviews the financial statements, validates revenue, adjusts EBITDA.
 
-Y luego, seis meses después de cerrar, descubre que la empresa necesita $30M adicionales de capital de trabajo para operar normalmente.
+And then, six months after closing, discovers that the company needs $30M in additional working capital to operate normally.
 
-El problema no estaba en el EBITDA. Estaba en el balance.
+The problem wasn't in the EBITDA. It was in the balance sheet.
 
-## Por qué pasa esto
+## Why this happens
 
-El due diligence financiero tradicional se enfoca en el estado de resultados. Tiene sentido: ahí está la rentabilidad, ahí se valida el múltiplo de compra.
+Traditional financial due diligence focuses on the income statement. It makes sense: that's where profitability lives, that's where you validate the purchase multiple.
 
-Pero el estado de resultados no te dice cuánto capital necesita la empresa para generar esas utilidades. Eso está en el balance — y específicamente en el capital de trabajo.
+But the income statement doesn't tell you how much capital the company needs to generate those profits. That's in the balance sheet — and specifically in working capital.
 
-## Lo que hay que revisar y normalmente no se revisa
+## What should be reviewed and usually isn't
 
-**1. El capital de trabajo "normalizado" vs. el capital de trabajo real**
+**1. "Normalized" working capital vs. actual working capital**
 
-Muchas empresas "limpian" el balance antes de una venta. Aceleran cobranza, liquidan inventario, estiran pagos a proveedores. El capital de trabajo que ves en el cierre no refleja la operación normal del negocio.
+Many companies "clean up" the balance sheet before a sale. They accelerate collections, liquidate inventory, stretch payments to suppliers. The working capital you see at closing doesn't reflect the business's normal operations.
 
-Hay que reconstruir el capital de trabajo promedio de los últimos 12–18 meses, no solo el del cierre.
+You need to reconstruct the average working capital over the last 12–18 months, not just at closing.
 
-**2. El ciclo de conversión de efectivo por cliente y por producto**
+**2. The cash conversion cycle by customer and by product**
 
-No todos los clientes ni todos los productos tienen el mismo ciclo. Un cliente que paga a 30 días y otro que paga a 120 días parecen iguales en el EBITDA consolidado. No son iguales en términos de capital requerido.
+Not all customers and not all products have the same cycle. A customer who pays at 30 days and another who pays at 120 days look the same in consolidated EBITDA. They are not the same in terms of capital required.
 
-Si la empresa tiene concentración en clientes de pago lento, el requerimiento de capital es estructuralmente más alto.
+If the company has concentration in slow-paying customers, the capital requirement is structurally higher.
 
-**3. Los activos que aparecen en el balance pero no generan nada**
+**3. Assets that appear on the balance sheet but generate nothing**
 
-Maquinaria obsoleta, inventario obsoleto, activos en comodato. Estos aparecen en el balance a valor contable y inflan el denominador del ROIC — haciendo que el retorno real sobre los activos productivos sea menor de lo que parece.
+Obsolete machinery, obsolete inventory, assets on loan. These appear on the balance sheet at book value and inflate the ROIC denominator — making the real return on productive assets look lower than it appears.
 
-**4. El capex de mantenimiento real**
+**4. The real maintenance capex**
 
-El EBITDA ajustado suele excluir capex. Pero si la empresa ha estado postergando mantenimiento durante 2–3 años para verse mejor en el proceso de venta, hay una factura por pagar. Ese capex diferido no aparece en ningún estado financiero — hay que detectarlo operacionalmente.
+Adjusted EBITDA typically excludes capex. But if the company has been deferring maintenance for 2–3 years to look better during the sale process, there's a bill to pay. That deferred capex doesn't appear in any financial statement — it has to be detected operationally.
 
-## Cómo hacerlo bien
+## How to do it right
 
-Un due diligence operacional riguroso requiere:
+A rigorous operational due diligence requires:
 
-- Reconstrucción del capital de trabajo mes a mes (no solo al cierre)
-- Análisis de rotación de inventario por SKU o categoría
-- Análisis de antigüedad de cuentas por cobrar por cliente
-- Revisión física de activos fijos
-- Entrevistas con el equipo de operaciones, no solo con el CFO
+- Month-by-month working capital reconstruction (not just at closing)
+- Inventory turnover analysis by SKU or category
+- Accounts receivable aging analysis by customer
+- Physical review of fixed assets
+- Interviews with the operations team, not just the CFO
 
-El resultado no es solo un EBITDA ajustado. Es un ROIC histórico real y una estimación del capital incremental necesario para operar y crecer la empresa post-adquisición.
+The result is not just an adjusted EBITDA. It's a real historical ROIC and an estimate of the incremental capital needed to operate and grow the company post-acquisition.
 
-Esa información cambia la valuación — y a veces, la decisión de comprar.
+That information changes the valuation — and sometimes, the decision to buy.
 
 ---
 
-*Sintelo aplica estos modelos a empresas que usted quiere adquirir. Antes de cerrar el trato.*
+*Sintelo applies these models to companies you want to acquire. Before you close the deal.*

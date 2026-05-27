@@ -5,56 +5,56 @@ categoria: Working Capital
 descripcion: EBITDA measures accounting profitability. Cash measures reality. The difference lives in three balance sheet lines that most ignore.
 ---
 
-Su empresa cerró el año con un EBITDA sólido. Los márgenes se ven bien en el reporte. Y sin embargo, a fin de mes el efectivo no alcanza.
+Your company closed the year with solid EBITDA. The margins look good on the report. And yet, at month-end the cash isn't there.
 
-Este es uno de los síntomas más comunes — y más malentendidos — en empresas industriales medianas en México. Y tiene una explicación muy concreta.
+This is one of the most common — and most misunderstood — symptoms in mid-market industrial companies. And it has a very concrete explanation.
 
-## El EBITDA no es efectivo
+## EBITDA is not cash
 
-El EBITDA mide cuánto genera su negocio antes de intereses, impuestos, depreciación y amortización. Es una métrica de rentabilidad operativa. Útil, pero incompleta.
+EBITDA measures how much your business generates before interest, taxes, depreciation, and amortization. It's a measure of operating profitability. Useful, but incomplete.
 
-El problema es que el EBITDA no captura lo que pasa en el balance. Y es en el balance donde vive su efectivo real.
+The problem is that EBITDA doesn't capture what happens on the balance sheet. And the balance sheet is where your real cash lives.
 
-## Las tres líneas que se lo están comiendo
+## The three lines that are eating it
 
-**1. Cuentas por cobrar (CxC)**
+**1. Accounts receivable (AR)**
 
-Cada vez que le vende a un cliente en crédito a 60 o 90 días, usted está financiando su operación. Ese dinero está en el EBITDA — ya se "ganó" contablemente — pero no está en su cuenta de banco.
+Every time you sell to a customer on 60 or 90-day credit terms, you're financing their operation. That money is in the EBITDA — it's already been "earned" on paper — but it's not in your bank account.
 
-Si sus ventas crecen, sus CxC también crecen. Más EBITDA, menos efectivo.
+If your sales grow, your AR also grows. More EBITDA, less cash.
 
-**2. Inventario**
+**2. Inventory**
 
-El inventario es capital inmovilizado. Cada peso que tiene en materia prima, producto en proceso o producto terminado es un peso que no está trabajando.
+Inventory is immobilized capital. Every dollar you have in raw materials, work in process, or finished goods is a dollar that isn't working.
 
-Las empresas industriales suelen cargar inventarios más grandes de lo necesario: por incertidumbre en la cadena de suministro, por negociaciones de compra, o simplemente por hábito.
+Industrial companies tend to carry larger inventories than necessary: due to supply chain uncertainty, purchasing negotiations, or simply habit.
 
-**3. Cuentas por pagar (CxP)**
+**3. Accounts payable (AP)**
 
-Este es el lado positivo del capital de trabajo: cuánto tarda usted en pagarle a sus proveedores. Si paga a 30 días pero cobra a 90, está poniendo 60 días de capital de su bolsillo.
+This is the positive side of working capital: how long you take to pay your suppliers. If you pay at 30 days but collect at 90, you're putting 60 days of capital out of your own pocket.
 
-## Cómo calcularlo
+## How to measure it
 
-La diferencia entre EBITDA y efectivo generado se llama **conversión de caja**. La fórmula simple:
-
-```
-Efectivo generado = EBITDA − Δ Capital de trabajo − Capex
-```
-
-Si su capital de trabajo creció $10M este año porque sus clientes tardaron más en pagar y su inventario aumentó, esos $10M salieron de su caja — aunque no aparezcan en el estado de resultados.
-
-## Qué hacer con esto
-
-El primer paso es medir. Calcule su ciclo de conversión de efectivo:
+The difference between EBITDA and cash generated is called **cash conversion**. The simple formula:
 
 ```
-CCE = Días de inventario + Días de CxC − Días de CxP
+Cash generated = EBITDA − Δ Working capital − Capex
 ```
 
-Un CCE de 90 días significa que su empresa necesita financiar 90 días de operación con capital propio antes de ver un peso de sus clientes.
+If your working capital grew $10M this year because your customers took longer to pay and your inventory increased, that $10M came out of your cash — even though it doesn't appear on the income statement.
 
-Reducir ese número en 15 o 20 días en una empresa industrial mediana puede liberar varios millones de pesos en efectivo — sin vender más, sin recortar costos.
+## What to do about it
+
+The first step is to measure. Calculate your cash conversion cycle:
+
+```
+CCC = Days of inventory + Days of AR − Days of AP
+```
+
+A CCC of 90 days means your company needs to finance 90 days of operations with its own capital before seeing a dollar from your customers.
+
+Reducing that number by 15 or 20 days in a mid-market industrial company can free up several million dollars in cash — without selling more, without cutting costs.
 
 ---
 
-*¿Quiere calcular el CCE de su empresa? El diagnóstico de Sintelo incluye este análisis como punto de partida.*
+*Want to calculate your company's CCC? The Sintelo diagnostic includes this analysis as a starting point.*

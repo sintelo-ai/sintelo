@@ -5,78 +5,78 @@ fecha: 2026-05-12
 categoria: "Capital Allocation"
 ---
 
-Crecer y escalar no son la misma cosa.
+Growing and scaling are not the same thing.
 
-Crecer es facturar más. Escalar es facturar más mientras el retorno sobre el capital invertido mejora — o al menos se mantiene. La diferencia entre los dos define si tu empresa está construyendo valor o simplemente haciéndose más grande mientras lo destruye.
+Growing is billing more. Scaling is billing more while the return on invested capital improves — or at least holds steady. The difference between the two defines whether your company is building value or simply getting bigger while destroying it.
 
-Este artículo propone un marco para evaluar la escalabilidad intrínseca de una empresa mediana industrial, usando las mismas herramientas de capital allocation que aplicamos en ROIC X-Ray.
+This article proposes a framework for evaluating the intrinsic scalability of a mid-market industrial company, using the same capital allocation tools we apply in ROIC X-Ray.
 
-## El espejismo del crecimiento
+## The growth mirage
 
-Un dueño que ve sus ventas crecer 20% año contra año se siente tranquilo. El consejo aprueba presupuestos de expansión. Se abren rutas, se contrata personal, se adquiere equipo. El EBITDA sube.
+An owner who sees revenue grow 20% year over year feels reassured. The board approves expansion budgets. New routes open, staff is hired, equipment is acquired. EBITDA rises.
 
-Pero debajo de esa superficie, tres cosas pueden estar ocurriendo sin que aparezcan en el reporte mensual:
+But beneath that surface, three things may be happening without showing up in the monthly report:
 
-El capital de trabajo crece más rápido que las ventas. Cada peso adicional de ingreso requiere más inventario, más cuentas por cobrar, más financiamiento a clientes. La caja se tensa sin que el P&L lo refleje.
+Working capital grows faster than sales. Every additional dollar of revenue requires more inventory, more receivables, more customer financing. Cash tightens without the P&L reflecting it.
 
-El margen se comprime en silencio. Los primeros clientes tenían precio premium. Los nuevos clientes vinieron con descuento o con términos más largos. El volumen sube pero la rentabilidad por unidad baja.
+Margins compress silently. The first customers paid premium prices. New customers came with discounts or longer terms. Volume goes up but profitability per unit goes down.
 
-El capex de mantenimiento se difiere. El equipo que soportó la primera etapa necesita reinversión, pero el presupuesto se fue a expansión. La depreciación contable no coincide con el desgaste real.
+Maintenance capex gets deferred. The equipment that supported the first phase needs reinvestment, but the budget went to expansion. Accounting depreciation doesn't match actual wear.
 
-Resultado: la empresa creció en ingresos pero el retorno por cada peso invertido cayó. ROIC se deterioró. Si el ROIC queda por debajo del costo de capital, cada peso de crecimiento destruye valor — no lo crea.
+Result: the company grew in revenue but the return on every dollar invested fell. ROIC deteriorated. If ROIC falls below the cost of capital, every dollar of growth destroys value — it doesn't create it.
 
-## Qué significa escalar intrínsecamente
+## What it means to scale intrinsically
 
-Una empresa escala intrínsecamente cuando su modelo de negocio genera más retorno por unidad de capital a medida que crece. No necesita una reestructuración radical para absorber volumen adicional. Las estructuras, procesos y relaciones comerciales están diseñadas para que el crecimiento marginal sea más rentable que el promedio, no menos.
+A company scales intrinsically when its business model generates more return per unit of capital as it grows. It doesn't need a radical restructuring to absorb additional volume. The structures, processes, and commercial relationships are designed so that marginal growth is more profitable than the average, not less.
 
-En términos de ROIC X-Ray, la escalabilidad intrínseca se manifiesta en dos palancas:
+In ROIC X-Ray terms, intrinsic scalability manifests in two levers:
 
-**Palanca A — Margen operativo que se sostiene o mejora con escala.** Los costos fijos se diluyen. El poder de negociación con proveedores crece. El pricing se mantiene porque la propuesta de valor está anclada en diferenciación, no en descuento.
+**Lever A — Operating margin that holds or improves with scale.** Fixed costs dilute. Supplier negotiating power grows. Pricing holds because the value proposition is anchored in differentiation, not discount.
 
-**Palanca B — Rotación de capital que se mantiene o mejora con escala.** El capital de trabajo no crece proporcionalmente al ingreso. Los activos fijos se utilizan a mayor capacidad. Cada peso invertido genera más vueltas de venta.
+**Lever B — Capital turnover that holds or improves with scale.** Working capital doesn't grow proportionally to revenue. Fixed assets are used at higher capacity. Every dollar invested generates more turns of revenue.
 
-ROIC = Margen × Rotación. Si ambas palancas se sostienen o mejoran con el crecimiento, el ROIC sube y la empresa escala intrínsecamente. Si alguna se deteriora más rápido de lo que la otra mejora, el crecimiento es un espejismo.
+ROIC = Margin × Turnover. If both levers hold or improve with growth, ROIC rises and the company scales intrinsically. If one deteriorates faster than the other improves, the growth is a mirage.
 
-## Tres señales de que tu empresa no escala
+## Three signs your company isn't scaling
 
-**1. Crecimiento de working capital mayor al crecimiento de ventas.**
+**1. Working capital growth exceeding sales growth.**
 
-Si tus ventas crecen 15% pero tus cuentas por cobrar crecen 25% y tu inventario crece 30%, el modelo está absorbiendo más capital del que produce. Cada nuevo cliente requiere más financiamiento. La operación crece pero la caja se seca.
+If your sales grow 15% but your accounts receivable grow 25% and your inventory grows 30%, the model is absorbing more capital than it produces. Every new customer requires more financing. The operation grows but the cash dries up.
 
-El diagnóstico está en la rotación: días de cuentas por cobrar, días de inventario, días de cuentas por pagar. Si los días de CxC e inventario se alargan trimestre a trimestre mientras creces, tu modelo no está escalando — está inflándose.
+The diagnostic is in the turnover: days of accounts receivable, days of inventory, days of accounts payable. If AR and inventory days lengthen quarter over quarter while you grow, your model isn't scaling — it's inflating.
 
-**2. Margen bruto que cae mientras el volumen sube.**
+**2. Gross margin falling while volume rises.**
 
-Cuando el crecimiento viene de bajar precios o de canales con menores márgenes, el volumen compensa la rentabilidad solo hasta cierto punto. Después, cada unidad adicional diluye. Si tu margen bruto era 42% hace dos años y hoy es 38% con el doble de volumen, la pregunta es si los cuatro puntos de margen perdido se recuperan con escala operativa o se profundizan.
+When growth comes from lowering prices or from channels with lower margins, volume compensates profitability only up to a point. After that, each additional unit dilutes. If your gross margin was 42% two years ago and today it's 38% with double the volume, the question is whether the four lost margin points recover with operating scale or deepen.
 
-En empresas industriales medianas mexicanas, la causa más frecuente de compresión de margen no es el pricing — es la complejidad del portafolio. Más SKUs, más variantes, más clientes con términos especiales. La proliferación genera carga operativa que no se refleja como línea de costo sino como ineficiencia distribuida.
+In mid-market industrial companies, the most frequent cause of margin compression isn't pricing — it's portfolio complexity. More SKUs, more variants, more customers with special terms. Proliferation generates operational load that doesn't show up as a cost line but as distributed inefficiency.
 
-**3. Headcount que crece al mismo ritmo que los ingresos.**
+**3. Headcount growing at the same rate as revenue.**
 
-Si necesitas contratar un vendedor por cada millón de pesos de ingreso nuevo, tu modelo comercial no escala. Si necesitas agregar un turno de producción por cada 10% de volumen adicional sin mejora en rendimiento, tu modelo operativo no escala. La proporción ingreso/empleado debería mejorar con el tamaño — si se mantiene plana o se deteriora, la estructura absorbe todo el beneficio del crecimiento.
+If you need to hire one salesperson for every million dollars of new revenue, your commercial model doesn't scale. If you need to add a production shift for every 10% of additional volume without yield improvement, your operating model doesn't scale. The revenue-per-employee ratio should improve with size — if it stays flat or deteriorates, the structure absorbs all the benefit of growth.
 
-## El test de capital para el dueño
+## The capital test for the owner
 
-La pregunta que un capital allocator se hace ante cualquier plan de crecimiento no es "¿cuánto vamos a facturar?" sino:
+The question a capital allocator asks before any growth plan is not "how much will we bill?" but:
 
-¿El ROIC post-crecimiento será mayor, igual o menor que el ROIC actual?
+Will the post-growth ROIC be higher, equal to, or lower than current ROIC?
 
-Si la respuesta es mayor: el crecimiento crea valor. Invertir.
+If the answer is higher: growth creates value. Invest.
 
-Si la respuesta es igual: el crecimiento es neutral. Evaluar si el capital tiene mejor uso alternativo.
+If the answer is equal: growth is neutral. Evaluate whether capital has a better alternative use.
 
-Si la respuesta es menor: el crecimiento destruye valor. Cada peso invertido en expandirse rinde menos que el costo de oportunidad de ese peso. Crecer es la decisión equivocada — primero hay que arreglar la escalabilidad del modelo.
+If the answer is lower: growth destroys value. Every dollar invested in expanding yields less than the opportunity cost of that dollar. Growing is the wrong decision — first fix the model's scalability.
 
-Este es el marco que separa a un dueño que crece por instinto de un capital allocator que crece por evidencia. Ambos pueden tomar la misma decisión al final. Pero uno sabe por qué la toma y puede corregir si la premisa no se cumple.
+This is the framework that separates an owner who grows by instinct from a capital allocator who grows by evidence. Both may make the same decision in the end. But one knows why they made it and can correct if the premise doesn't hold.
 
-## Implicación práctica
+## Practical implication
 
-Antes de aprobar tu próximo presupuesto de expansión, descompón el ROIC proyectado:
+Before approving your next expansion budget, decompose the projected ROIC:
 
-¿El margen operativo mejora, se mantiene o cae con el volumen adicional?
+Does operating margin improve, hold, or fall with the additional volume?
 
-¿La rotación de capital mejora, se mantiene o cae con la nueva inversión?
+Does capital turnover improve, hold, or fall with the new investment?
 
-Si ambas respuestas son positivas, escala. Si alguna es negativa, diagnostica por qué antes de invertir. El diagnóstico casi siempre revela que el problema no es el mercado — es la estructura interna del negocio que no fue diseñada para absorber la escala que se le está pidiendo.
+If both answers are positive, scale. If either is negative, diagnose why before investing. The diagnosis almost always reveals that the problem isn't the market — it's the business's internal structure that wasn't designed to absorb the scale being demanded of it.
 
-Crecer es fácil. Escalar es diseñar.
+Growing is easy. Scaling is design.
