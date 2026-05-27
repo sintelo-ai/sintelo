@@ -1,6 +1,6 @@
 ---
-titulo: "EBITDA, flujo de caja y ROIC: las tres preguntas que un capital allocator se hace cada mes"
-descripcion: "EBITDA mide si vendiste bien. Flujo de caja, si cobraste. ROIC, si valió la pena. Monitorear solo una crea puntos ciegos predecibles."
+titulo: "EBITDA, cash flow, and ROIC: the three questions a capital allocator asks every month"
+descripcion: "EBITDA measures if you sold well. Cash flow, if you collected. ROIC, if it was worth it. Monitoring only one creates predictable blind spots."
 fecha: 2026-05-05
 categoria: "Capital Allocation"
 ---

@@ -1,6 +1,6 @@
 ---
-titulo: "Crecer sin mejorar el ROIC no es escalar"
-descripcion: "La escalabilidad intrínseca no se mide en ingresos. Se mide en si cada peso adicional de capital invertido genera más retorno que el anterior."
+titulo: "Growing without improving ROIC is not scaling"
+descripcion: "Intrinsic scalability is not measured in revenue. It is measured by whether each additional dollar of invested capital generates more return than the last."
 fecha: 2026-05-12
 categoria: "Capital Allocation"
 ---

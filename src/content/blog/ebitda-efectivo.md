@@ -1,8 +1,8 @@
 ---
-titulo: "Por qué su empresa tiene buen EBITDA pero poco efectivo"
+titulo: "Why your company has good EBITDA but little cash"
 fecha: 2026-03-12
 categoria: Working Capital
-descripcion: El EBITDA mide rentabilidad contable. El efectivo mide realidad. La diferencia vive en tres líneas del balance que la mayoría ignora.
+descripcion: EBITDA measures accounting profitability. Cash measures reality. The difference lives in three balance sheet lines that most ignore.
 ---
 
 Su empresa cerró el año con un EBITDA sólido. Los márgenes se ven bien en el reporte. Y sin embargo, a fin de mes el efectivo no alcanza.

@@ -1,8 +1,8 @@
 ---
-titulo: "El error más común al hacer due diligence operacional en México"
+titulo: "The most common mistake in operational due diligence"
 fecha: 2026-02-10
 categoria: Due Diligence
-descripcion: La mayoría de los compradores revisan el EBITDA ajustado. Pocos revisan el capital de trabajo real. Ahí es donde se esconden los problemas verdaderos.
+descripcion: Most buyers review adjusted EBITDA. Few review actual working capital. That is where the real problems hide.
 ---
 
 He visto este patrón repetirse en varias transacciones: un comprador — fondo de PE, family office o comprador estratégico — hace un due diligence financiero riguroso. Revisa los estados financieros, valida los ingresos, ajusta el EBITDA.

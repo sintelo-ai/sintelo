@@ -1,6 +1,6 @@
 ---
-titulo: "Tu cliente más grande es el 40% de tus ventas. ¿Qué pasa si se va?"
-descripcion: "La concentración de cliente no es un problema comercial. Es un riesgo de capital que destruye ROIC en cuestión de meses — y la mayoría de los dueños de empresa no lo cuantifican hasta que ya es tarde."
+titulo: "Your biggest customer is 40% of your revenue. What happens if they leave?"
+descripcion: "Customer concentration is not a commercial problem. It is a capital risk that destroys ROIC in a matter of months — and most business owners do not quantify it until it is too late."
 fecha: 2026-05-19
 categoria: "Capital Allocation"
 ---

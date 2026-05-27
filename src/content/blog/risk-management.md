@@ -1,8 +1,8 @@
 ---
-titulo: "Tres riesgos que no aparecen en tu estado de resultados pero están destruyendo valor hoy."
+titulo: "Three risks that do not appear on your income statement but are destroying value today."
 fecha: 2026-04-28
 categoria: Risk Management
-descripcion: Los riesgos más peligrosos para una empresa industrial no están en el P&L. Están en el balance — y en las decisiones que nadie está midiendo.
+descripcion: The most dangerous risks for an industrial company are not in the P&L. They are in the balance sheet — and in the decisions no one is measuring.
 ---
 
 Tu estado de resultados puede verse bien. Márgenes razonables, EBITDA positivo, crecimiento en ventas.

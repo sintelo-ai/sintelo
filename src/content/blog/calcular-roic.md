@@ -1,8 +1,8 @@
 ---
-titulo: "Cómo calcular el ROIC de su empresa en una tarde"
+titulo: "How to calculate your company ROIC in an afternoon"
 fecha: 2026-02-28
 categoria: ROIC
-descripcion: No necesita un modelo financiero sofisticado. Necesita los datos correctos y saber qué incluir en el capital invertido — y qué dejar fuera.
+descripcion: You do not need a sophisticated financial model. You need the right data and to know what to include in invested capital — and what to leave out.
 ---
 
 El ROIC — retorno sobre capital invertido — es el número más honesto que puede calcular sobre su empresa. Más honesto que el EBITDA, más completo que el margen neto, más útil que el ROE.
