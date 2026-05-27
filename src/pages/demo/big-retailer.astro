@@ -97,7 +97,7 @@ const years = ['Year 1','Year 2','Year 3','Year 4','Year 5','Year 6','Year 7','Y
     <div class="rg-arrow">→</div>
     <div class="rg">
       <div class="rg-val pot">{bridge.roic_potencial.toFixed(1)}%</div>
-      <div class="rg-label">Potential ROIC · 3 years</div>
+      <div class="rg-label">Potential ROIC · 3-year target</div>
     </div>
   </div>
 </section>
@@ -130,7 +130,7 @@ const years = ['Year 1','Year 2','Year 3','Year 4','Year 5','Year 6','Year 7','Y
   </div>
   <div class="label">Value waterfall · Current ROIC → Potential ROIC</div>
   <div style="position:relative;height:320px;margin-bottom:1rem;">
-    <canvas id="wfChart" role="img" aria-label={`Waterfall ROIC de ${bridge.roic_actual.toFixed(1)}% a ${bridge.roic_potencial.toFixed(1)}% via three levers`}>
+    <canvas id="wfChart" role="img" aria-label={`Waterfall ROIC from ${bridge.roic_actual.toFixed(1)}% to ${bridge.roic_potencial.toFixed(1)}% via three levers`}>
       Current ROIC {bridge.roic_actual.toFixed(1)}%, {bridge.levers[0]?.nombre} +{leverRoiPp[0]?.toFixed(1)}pp, {bridge.levers[1]?.nombre} +{leverRoiPp[1]?.toFixed(1)}pp, {bridge.levers[2]?.nombre} +{leverRoiPp[2]?.toFixed(1)}pp, Potential ROIC {bridge.roic_potencial.toFixed(1)}%
     </canvas>
   </div>
@@ -166,7 +166,7 @@ const years = ['Year 1','Year 2','Year 3','Year 4','Year 5','Year 6','Year 7','Y
   <div class="label">Prioritization heatmap · impact vs ease of capture</div>
   <p class="section-body" style="margin-bottom:2rem">Not all levers execute the same way. This matrix prioritizes along two dimensions: how much it moves ROIC and how quickly value is captured. Bubbles in the upper left are first-wave implementations; those on the right require longer organizational transformation.</p>
   <div style="position:relative;height:380px;margin-bottom:1rem;">
-    <canvas id="hmChart" role="img" aria-label="Heatmap de priorización de levers por impacto en ROIC y tiempo de captura"></canvas>
+    <canvas id="hmChart" role="img" aria-label="Lever prioritization heatmap by ROIC impact and time to capture"></canvas>
   </div>
   <div class="hm-legend">
     <span class="leg-item"><span class="leg-dot" style="background:#7F77DD"></span>Lever A · Margin</span>
@@ -295,7 +295,7 @@ const years = ['Year 1','Year 2','Year 3','Year 4','Year 5','Year 6','Year 7','Y
     <div class="bc">
       <div class="bc-val">{bridge.roic_potencial.toFixed(1)}%</div>
       <div class="bc-label">Potential ROIC</div>
-      <div class="bc-sub">vs {bridge.roic_actual.toFixed(1)}% actual</div>
+      <div class="bc-sub">vs {bridge.roic_actual.toFixed(1)}% current</div>
     </div>
     <div class="bc">
       <div class="bc-val">+{bridge.delta_pp.toFixed(1)}pp</div>
@@ -684,7 +684,7 @@ const years = ['Year 1','Year 2','Year 3','Year 4','Year 5','Year 6','Year 7','Y
             reverse: true
           },
           y: {
-            title: { display: true, text: 'Impacto en ROIC (pp)', color: '#7A7470', font: { size: 11 } },
+            title: { display: true, text: 'ROIC impact (pp)', color: '#7A7470', font: { size: 11 } },
             min: 0,
             ticks: { color: '#7A7470', font: { size: 10 }, callback: v => '+' + v + 'pp' },
             grid: { color: 'rgba(255,255,255,0.04)' },
